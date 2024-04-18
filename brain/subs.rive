@@ -149,6 +149,8 @@
 ! sub (f)       = rose
 ! sub (w)       = wilted rose
 
+! sub yo        = hello
+
 // Person substitutions
 ! person i am    = you are
 ! person you are = I am

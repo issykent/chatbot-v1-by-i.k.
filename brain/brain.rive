@@ -5,11 +5,25 @@
 
 + _
 % hello what is your name
-- Nice to meet you <formal>!
+- Nice to meet you <formal>! do you have any questions for me?
+
++ i want to know about *
+- you can google questions about <star>. dont ask me.
+
++ what are * 
+-  who knows that is not my specialty
+
++ what is up
+- not much
+- wouldnt you like to know
+- not anything thats your buisness
 
 + my name is *
 - Nice to meet you <star>
 - Nice meeting you <star>
+
++ the * is good
+- im glad the <star> is good
 
 + thank you
 - You are welcome
@@ -22,3 +36,19 @@
 - I am afraid that I can not understand you
 - Sorry can you please elaborate that for me
 - I don't get it!
+
++ knock knock
+- Who's there?
+
++ *
+% who is there
+- <star> who?
+
++ *
+% * who
+- LOL! <star>! That's funny!
+
++ [*] do you enjoy [*]
+- not a lot
+- i actually really hate it
+- i find no enjoyment in that 
