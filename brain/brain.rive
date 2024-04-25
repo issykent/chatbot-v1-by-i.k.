@@ -1,30 +1,5 @@
 ! version = 2.0
 
-+ hello
-- Hello, what is your name?
-
-+ _
-% hello what is your name
-- Nice to meet you <formal>! do you have any questions for me?
-
-+ i want to know about *
-- you can google questions about <star>. dont ask me.
-
-+ what are * 
--  who knows that is not my specialty
-
-+ what is up
-- not much
-- wouldnt you like to know
-- not anything thats your buisness
-
-+ my name is *
-- Nice to meet you <star>
-- Nice meeting you <star>
-
-+ the * is good
-- im glad the <star> is good
-
 + thank you
 - You are welcome
 - Welcome
@@ -37,18 +12,177 @@
 - Sorry can you please elaborate that for me
 - I don't get it!
 
-+ knock knock
-- Who's there?
-
-+ *
-% who is there
-- <star> who?
-
-+ *
-% * who
-- LOL! <star>! That's funny!
-
 + [*] do you enjoy [*]
 - not a lot
 - i actually really hate it
-- i find no enjoyment in that 
+- i find no enjoyment in that
+
++[*] (hello|hi|hiya|hey|yo) [*]
+- Hello! I'm your next passport stamp! \n
+^\n
+^ I can help you gather safe travel information at the click of a button! \n
+^\n
+^ Would you like to know about transport, accomodation or saftey first? \n
+^\n 
+^ Please include the word "transport" , "accomodation" or "saftey" in your next message according to what youd like to know!
+
++[*] transport [*]
+- awesome! lets talk transport! {topic=transport} \n
+    
+> topic transport
+    
+    + *
+    - I can tell you about cheap seasons to fly and how to commute within a certain country! Which would you ratehr hear about? \n
+    ^ \n
+    ^ Please include the word "flight" or "public transport" in your next message accordingly!
+
+    + [*] (flight|flights) [*]
+    - Perfect! my speciality is budget flighing!\n
+    ^ \n do have a season in mind you wish to fly? or perhaps a specific destination?
+
+    + [*] (country|destination|place) [*]
+    - Cool! What is the name of that country? 
+
+    + (sweden|czech republic|switzerland|serbia|moldova|slovenia|macedonia)
+    % Cool! What is the name of that country?
+    - The most afforable time to fly there is during the Autumn months! \n
+    ^  Try finding cheap flights on the website "Skyscanner". \n
+    ^ \n
+    ^  TOP TIP: Remeber to arrange transport to and from the airport! \n
+
+    + [*] Autumn [*] 
+    - 
+
+    +
+< topic transport
+ 
+
++[*]transport [*] (uk|united kingdom|france|italy|poland|ukraine|romania|netherlands|portugal|hungary|austria|croatia|lithuania|montenegro|iceland)
+-The most afforable time to fly there is during the Winter months! \n
+^  Try finding cheap flights on the website "Skyscanner". \n
+^ \n
+^  TOP TIP: Remeber to arrange transport to and from the airport! \n
+^ \n
+^  type "commuting within: country" to find out whether the public transport is easy to navigate there! \n
+^ \n
+^  Or I can tell you about saftey and accomodation! \n
+^ \n
+^  type "accomodation:country" or "saftey: country"
+
++[*]transport [*] (belarus|estonia)
+-The most afforable time to fly there is during the Summer months! \n
+^  Try finding cheap flights on the website "Skyscanner". \n
+^ \n
+^  TOP TIP: Remeber to arrange transport to and from the airport! \n
+^ \n
+^  type "commuting within: country" to find out whether the public transport is easy to navigate there! \n
+^ \n
+^  Or I can tell you about saftey and accomodation! \n
+^ \n
+^  type "accomodation:country" or "saftey: country"
+
++[*]transport [*] (russia|germany|spain|belgium|greece|bulgaria|denmark|slovakia|finland|norway|iceland|bosnia|albania|latvia|luxembourg|malta)
+-The most afforable time to fly there is during the Spring months! \n
+^  Try finding cheap flights on the website "Skyscanner". \n
+^ \n
+^  TOP TIP: Remeber to arrange transport to and from the airport! \n
+^ \n
+^  type "commuting within: country" to find out whether the public transport is easy to navigate there! \n
+^ \n
+^  Or I can tell you about saftey and accomodation! \n
+^ \n
+^  type "accomodation:country" or "saftey: country"
+
++[*] commuting within [*] (france|uk|united kingdom|netherlands|sweden|switzerland|demark|slovakia|finland|macedonia|luxembourg|monaco|poland|ukraine)
+- Commuting within this country is super easy! \n
+^\n
+^ Navigating buses and trains there will be a piece of cake! \n
+^\n
+^ There may even be trams, ferries or taxis that can get you where you need to go!\n
+^\n
+^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+
++[*] commuting within [*] (romania|belarus|bulgaria|san marino|holy see)
+- Hmmm... according to my knowledge commmuting within this country is not the easiest.\n
+^\n
+^Public transport such as buses, trains, trams etc... may not run smoothly or be very easy to navigate.\n
+^\n
+^Perhaps looking into vehicle retal, flying directly to the area you wish to explore or seeing if car services such as "uber" or "bolt" run here would be better options for you!\n
+^\n 
+^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+
++[*] commuting within [*] (russia|germany|italy|spain|portugal|austria|latvia|solvenia|ireland)
+- The best mode of commute here is using the trains! \n
+^ There are other forms of public transport here but the trains will be the easiest for you to naviagte! \n
+^\n
+^To learn more about this country type "accomodation: country name" or "saftey: country name"
+
++[*] commuting within [*] (greece|hungary|serbia|moldova|bosnia|albania|lithuania|malta|iceland|andora|lichenstein)
+- Ooo I love it there! The buses will be the easiest way to get around over there! they are very reliable and easy to use!\n
+^There are other ways of getting around but none comapre to the bus network!\n
+^\n
+^To learn more about this country type "accomodation: country name" or "saftey: country name"
+
++[*] commuting within [*] (belgium|estonia)
+- Your best options here is traveling via bus or train!\n
+^\n
+^ There are other modes of transport but the buses and trains there will be easiest for you to navigate!\n
+^\n 
+^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+
+
++[*] commuting within [*] (norway)
+- What a beautiful country! Gettign around via train and ferry are defiently preferable: although all modes of transport here will be easy to use!\n
+^\n 
+^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+
+
++[*] commuting within [*] (croatia)
+- I love that place! Buses and ferries are the most acessible forms of tranport there! The variety of terrains will ensure a lovely commute for you no matter how you choose to travel!\n
+^\n 
+^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+
+
++[*] commuting within [*] (czech republic|montenegro)
+- Beautiful place! Taxis and buses there are the most developed modes of public transport over there and I would reocmend them over trains any day!\n
+^\n 
+^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+
++[*] safety [*]
+- Sure thing! Lets talk the important stuff!\n
+^\n
+^Please type "saftey: country name" and I can let you know whether solo travel is generally safe over there!\n
+^\n
+^ REMEMBER! Solo travel can always be risky no matter how safe a country is deemed! ALWAYS do further research into necessary saftey measures!\n
+^\n
+^ good websites for further research into saftey measures for travelling include "solotravellersworld.com" and "worldpackers.com"
+
++[*] safety [*] (germany|italy|spain|poland|netherlands|belgium|sweden|czech republic|portugal|austria|switzerland|denmark|finalnd|norway|ireland|croatia|slovenia|luxembourg|iceland|andorra|lichtenstein|monaco)
+- Youre in luck! That is one of the best countries in europe for solo travel!\n
+^\n
+^ REMEMBER! saftey research into this country on "solotravellersworld.com" and "worldpacker.com" is still highly recommended and will be very helpful!\n
+^\n
+^Can I intrest you in information on accomodation or transport?\n
+^(type: "accomodation" or "transport")
+
++[*] safety [*] (france|uk|united kingdom|romania|greece|hungary|bulgaria|slovakia|albania|lithuania|latvia|estonia|montenegro|malta|san marino|holy see)
+- Solo travel here would be super fun! This country is not renowned for its saftey but is definetly not dangerous and will be okay for solo travel! \n
+^\n
+^ At least breif research into saftey measures on sites such as  "solotravellersworld.com" and "worldpacker.com" will be imperative to ensure you get the best from your trip!\n
+^\n
+^Would you like further information on accomodation or transport?\n
+^(type: "accomodation" or "transport")
+
++[*] safety [*] (russia|ukraine|belarus|serbia|moldova|bosnia|macedonia)
+- That country is gorgeous- unfortuetly solo travel here is not recomended and could be unsafe.\n
+^\n
+^Perhaps consider travelling with a group or waiting until you are a more experinaced traveller to go here!\n
+^\n
+^ RESEARCH INTO THIS COUNTRY ON "solotravellersworld.com" and "worldpacker.com" IS ESSENTIAL FOR TRAVEL THERE!\n
+^\n
+^Can I intrest you in any other information on accomodation or transport for this country or another?\n
+^(type: "accomodation" or "transport")
+
+
+
+
