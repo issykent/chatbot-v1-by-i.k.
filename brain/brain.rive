@@ -6,12 +6,6 @@
 - No problem
 - No worries!
 
-+ *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
-- I don't get it!
-
 + [*] do you enjoy [*]
 - not a lot
 - i actually really hate it
@@ -22,158 +16,249 @@
 ^\n
 ^ I can help you gather safe travel information at the click of a button! \n
 ^\n
-^ Would you like to know about transport, accomodation or saftey first? \n
+^ Would you like to know about transport, accomodation, saftey or activities first? \n
 ^\n 
-^ Please include the word "transport" , "accomodation" or "saftey" in your next message according to what youd like to know!
+^ Please include the word "transport" , "accomodation", "saftey" or "activities" in your next message according to what youd like to know!
 
 +[*] transport [*]
 - awesome! lets talk transport! {topic=transport} \n
-    
+
++[*] safety [*] 
+- Sure thing! Lets talk the important stuff! {topic=safety} 
+
++ [*] accomodation [*]
+- Finding somewhere to stay is super important! Let me see what I know {topic= accomodation}
+
++ [*] activities [*]
+- Yayy! The fun stuff! Lets get to buisness and talk what you want out of your trip! {topic= activities}
+
 > topic transport
     
-    + *
-    - I can tell you about cheap seasons to fly and how to commute within a certain country! Which would you ratehr hear about? \n
-    ^ \n
-    ^ Please include the word "flight" or "public transport" in your next message accordingly!
++ *
+% awesome lets talk transport
+- I can tell you about cheap seasons to fly and how to commute within a certain country!\n
+^ \n
+^ Which would you rather hear about? \n
+^ \n
+^ Please include the word "flight" or "public transport" in your next message accordingly!
 
-    + [*] (flight|flights) [*]
-    - Perfect! my speciality is budget flighing!\n
-    ^ \n do have a season in mind you wish to fly? or perhaps a specific destination?
++ [*] (flight|flights) [*]
+- Perfect! my speciality is budget flying!\n
+^\n
+^ do have a season in mind you wish to fly?\n
+^ or perhaps a specific country?\n
+^ \n
+^ Please include the word "country" or "season" in your next message!
 
-    + [*] (country|destination|place) [*]
-    - Cool! What is the name of that country? 
++ * 
+- Im sorry i didnt get that! try rewording your message with a word ive used before: that might make more sense to me!
 
-    + (sweden|czech republic|switzerland|serbia|moldova|slovenia|macedonia)
-    % Cool! What is the name of that country?
-    - The most afforable time to fly there is during the Autumn months! \n
-    ^  Try finding cheap flights on the website "Skyscanner". \n
-    ^ \n
-    ^  TOP TIP: Remeber to arrange transport to and from the airport! \n
++ [*] (country|destination|place) [*]
+- Cool! What is the name of that country? 
 
-    + [*] Autumn [*] 
-    - 
-
-    +
-< topic transport
- 
-
-+[*]transport [*] (uk|united kingdom|france|italy|poland|ukraine|romania|netherlands|portugal|hungary|austria|croatia|lithuania|montenegro|iceland)
--The most afforable time to fly there is during the Winter months! \n
++ [*] (sweden|czech republic|switzerland|serbia|moldova|slovenia|macedonia|lichtenstein) [*]
+% cool what is the name of that country
+- The most afforable time to fly there is during the Autumn months! \n
+^\n
 ^  Try finding cheap flights on the website "Skyscanner". \n
 ^ \n
-^  TOP TIP: Remeber to arrange transport to and from the airport! \n
-^ \n
-^  type "commuting within: country" to find out whether the public transport is easy to navigate there! \n
-^ \n
-^  Or I can tell you about saftey and accomodation! \n
-^ \n
-^  type "accomodation:country" or "saftey: country"
+^  TOP TIP: Remeber to arrange transport to and from the airport! {topic= transport} 
 
-+[*]transport [*] (belarus|estonia)
++ [*] (uk|united kingdom|france|italy|poland|ukraine|romania|netherlands|portugal|hungary|austria|croatia|lithuania|montenegro|iceland) [*]
+% cool what is the name of that country
+- The most afforable time to fly there is during the Winter months! \n
+^ \n
+^  Try finding cheap flights on the website "Skyscanner". \n
+^ \n
+^  TOP TIP: Remeber to arrange transport to and from the airport! {topic= transport}
+
++ [*] (belarus|estonia) [*]
+% cool what is the name of that country
 -The most afforable time to fly there is during the Summer months! \n
+^ \n
 ^  Try finding cheap flights on the website "Skyscanner". \n
 ^ \n
-^  TOP TIP: Remeber to arrange transport to and from the airport! \n
-^ \n
-^  type "commuting within: country" to find out whether the public transport is easy to navigate there! \n
-^ \n
-^  Or I can tell you about saftey and accomodation! \n
-^ \n
-^  type "accomodation:country" or "saftey: country"
+^  TOP TIP: Remeber to arrange transport to and from the airport! {topic= transport}
 
-+[*]transport [*] (russia|germany|spain|belgium|greece|bulgaria|denmark|slovakia|finland|norway|iceland|bosnia|albania|latvia|luxembourg|malta)
--The most afforable time to fly there is during the Spring months! \n
++ [*] (russia|germany|spain|belgium|greece|bulgaria|denmark|slovakia|finland|norway|iceland|bosnia|albania|latvia|luxembourg|malta) [*]
+% cool what is the name of that country
+- The most afforable time to fly there is during the Spring months! \n
+^ \n
 ^  Try finding cheap flights on the website "Skyscanner". \n
 ^ \n
-^  TOP TIP: Remeber to arrange transport to and from the airport! \n
-^ \n
-^  type "commuting within: country" to find out whether the public transport is easy to navigate there! \n
-^ \n
-^  Or I can tell you about saftey and accomodation! \n
-^ \n
-^  type "accomodation:country" or "saftey: country"
+^  TOP TIP: Remeber to arrange transport to and from the airport! {topic= transport}
 
++ [*] (season|time of year) [*]
+- Thats a great place to start! when were you thinking?\n
+
++ [*] (autumn|october|november|september) [*]
+- Excellant choice, as the leaves are falling i'd recomended:\n
+^\n 
+^ - Sweden \n
+^ - Czech Republic \n
+^ - Switzerland \n
+^\n
+^Type the same month again for other sugesstions if none of these take your fancy! or try a diffrent time of year! {weight=10} {topic= transport}
+- Why not look into visiting:\n
+^\n
+^ - Serbia \n
+^ - Moldova \n
+^ - Solvenia \n 
+^ - Macedonia \n 
+^ \n
+^ Theyre all beautfiul in the autumnal months!\n
+^ \n
+^Type the same month again for other sugesstions if none of these take your fancy! or try a diffrent time of year!{weight=10} {topic= transport}
+
++[*] (winter|december|january|february) [*]
+- Ooo! The colder months are gorgeous! and affordable to get to, esepcially if you're in: \n
+^ \n
+^ - UK \n
+^ - France \n
+^ - Italy \n
+^ - Poland \n
+^ - Montenegro \n
+^\n
+^Type the same month again for other sugesstions if none of these take your fancy! or try a diffrent time of year! {weight=10} {topic= transport}
+- Excellant time to travel! I'd recomended: \n
+^ \n
+^ - Ukraine \n
+^ - Romania \n
+^ - The Netherlands \n
+^ - Portugal \n
+^ \n
+^ for cheap flights that time of year! \n
+^\n
+^Type the same month again for other sugesstions if none of these take your fancy! or try a diffrent time of year! {weight=10} {topic= transport}
+- Sounds good! Maybe you should look at flights to: \n
+^ \n
+^ - Hungary \n
+^ - Austria \n
+^ - Croatia \n
+^ - Lithuania \n
+^ - Iceland \n
+^ \n
+^ for cheap flights that month! \n
+^\n
+^Type the same month again for other sugesstions if none of these take your fancy! or try a diffrent time of year! {weight=10} {topic= transport}
+ 
++ [*] (spring|march|april|may) [*]
+- Awesome time to travel!\n
+^\n 
+^ - Russia\n
+^ - Germany \n
+^ - Spain \n
+^ - Belgium \n
+^ - Greece \n
+^ - Bulgaria \n
+^\n
+^Type the same month again for other sugesstions if none of these take your fancy! or try a diffrent time of year! {weight=10} {topic= transport}
+- Spring time is beautiful! maybe travel to:
+^ - \n
+^ - Denmark \n
+^ - Slovakia \n
+^ - Finland \n
+^ - Norway \n
+^ - Iceland \n
+^ - Bosnia \n
+^ \n
+^ at this time of year!
+^Type the same month again for other sugesstions if none of these take your fancy! or try a diffrent time of year! {weight=10} {topic= transport}
+-  I have great recomendations for then! Try:
+^\n
+^ - Albania \n
+^ - Latvia \n
+^ - Luxembourg \n
+^ - Malta \n
+^\n
+^Type the same month again for other sugesstions if none of these take your fancy! or try a diffrent time of year! {weight=10} {topic= transport}
+
++ [*] (summer|june|july|august) [*]
+- This is a beautiful time of year! unfortunatly flying on a budget at this time of year is tough! \n
+^ Luckily i know: \n
+^ - Belarus \n
+^ - Estonia \n
+^\n
+^ Are afforable and beautiful this time of year! {topic= transport}
+
++[*] public transport [*]
+- Sounds great! \n
+^ \n
+^ Knowing how to best commute within a country is so important! \n
+^ \n
+^ use the phrase "commuting within" and the name of the country you wish to travel to and I will let you know the best methods of public transport! 
+ 
 +[*] commuting within [*] (france|uk|united kingdom|netherlands|sweden|switzerland|demark|slovakia|finland|macedonia|luxembourg|monaco|poland|ukraine)
 - Commuting within this country is super easy! \n
 ^\n
 ^ Navigating buses and trains there will be a piece of cake! \n
 ^\n
-^ There may even be trams, ferries or taxis that can get you where you need to go!\n
-^\n
-^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+^ There may even be trams, ferries or taxis that can get you where you need to go! {topic= transport}
 
 +[*] commuting within [*] (romania|belarus|bulgaria|san marino|holy see)
 - Hmmm... according to my knowledge commmuting within this country is not the easiest.\n
 ^\n
 ^Public transport such as buses, trains, trams etc... may not run smoothly or be very easy to navigate.\n
 ^\n
-^Perhaps looking into vehicle retal, flying directly to the area you wish to explore or seeing if car services such as "uber" or "bolt" run here would be better options for you!\n
-^\n 
-^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+^Perhaps looking into vehicle retal, flying directly to the area you wish to explore or seeing if car services such as "uber" or "bolt" run here would be better options for you! {topic= transport}
 
 +[*] commuting within [*] (russia|germany|italy|spain|portugal|austria|latvia|solvenia|ireland)
 - The best mode of commute here is using the trains! \n
-^ There are other forms of public transport here but the trains will be the easiest for you to naviagte! \n
-^\n
-^To learn more about this country type "accomodation: country name" or "saftey: country name"
+^ There are other forms of public transport here but the trains will be the easiest for you to naviagte! {topic= transport}
 
-+[*] commuting within [*] (greece|hungary|serbia|moldova|bosnia|albania|lithuania|malta|iceland|andora|lichenstein)
++[*] commuting within [*] (greece|hungary|serbia|moldova|bosnia|albania|lithuania|malta|iceland|andora|lichtenstein)
 - Ooo I love it there! The buses will be the easiest way to get around over there! they are very reliable and easy to use!\n
-^There are other ways of getting around but none comapre to the bus network!\n
-^\n
-^To learn more about this country type "accomodation: country name" or "saftey: country name"
+^ There are other ways of getting around but none comapre to the bus network! {topic= transport}
 
 +[*] commuting within [*] (belgium|estonia)
-- Your best options here is traveling via bus or train!\n
-^\n
-^ There are other modes of transport but the buses and trains there will be easiest for you to navigate!\n
-^\n 
-^ To learn more about this country type "accomodation: country name" or "saftey: country name"
-
+- Your best options here is traveling via bus or train! \n
+^ \n
+^ There are other modes of transport but the buses and trains there will be easiest for you to navigate! {topic= transport}
 
 +[*] commuting within [*] (norway)
 - What a beautiful country! Gettign around via train and ferry are defiently preferable: although all modes of transport here will be easy to use!\n
 ^\n 
-^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+^ To learn more about this country type "accomodation" or "saftey" {topic= transport}
 
 
 +[*] commuting within [*] (croatia)
 - I love that place! Buses and ferries are the most acessible forms of tranport there! The variety of terrains will ensure a lovely commute for you no matter how you choose to travel!\n
 ^\n 
-^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+^ To learn more about this country type "accomodation" or "saftey" {topic= transport}
 
 
 +[*] commuting within [*] (czech republic|montenegro)
 - Beautiful place! Taxis and buses there are the most developed modes of public transport over there and I would reocmend them over trains any day!\n
 ^\n 
-^ To learn more about this country type "accomodation: country name" or "saftey: country name"
+^ To learn more about this country type "accomodation" or "saftey" {topic= transport}
 
-+[*] safety [*]
-- Sure thing! Lets talk the important stuff!\n
-^\n
-^Please type "saftey: country name" and I can let you know whether solo travel is generally safe over there!\n
-^\n
-^ REMEMBER! Solo travel can always be risky no matter how safe a country is deemed! ALWAYS do further research into necessary saftey measures!\n
-^\n
-^ good websites for further research into saftey measures for travelling include "solotravellersworld.com" and "worldpackers.com"
+< topic transport
 
-+[*] safety [*] (germany|italy|spain|poland|netherlands|belgium|sweden|czech republic|portugal|austria|switzerland|denmark|finalnd|norway|ireland|croatia|slovenia|luxembourg|iceland|andorra|lichtenstein|monaco)
+> topic saftey 
+
++ *
+% sure thing lets talk the important stuff
+- Would you like to know safety by country? \n
+^ \n
+^ Type "country name" or I can offer you a list of europes safest countries! just include "safety" in your next message! \n
+
++ (germany|italy|spain|poland|netherlands|belgium|sweden|czech republic|portugal|austria|switzerland|denmark|finalnd|norway|ireland|croatia|slovenia|luxembourg|iceland|andorra|lichtenstein|monaco)
 - Youre in luck! That is one of the best countries in europe for solo travel!\n
 ^\n
 ^ REMEMBER! saftey research into this country on "solotravellersworld.com" and "worldpacker.com" is still highly recommended and will be very helpful!\n
 ^\n
 ^Can I intrest you in information on accomodation or transport?\n
-^(type: "accomodation" or "transport")
+^(type: "accomodation" or "transport") {topic= safety}
 
-+[*] safety [*] (france|uk|united kingdom|romania|greece|hungary|bulgaria|slovakia|albania|lithuania|latvia|estonia|montenegro|malta|san marino|holy see)
++ (france|uk|united kingdom|romania|greece|hungary|bulgaria|slovakia|albania|lithuania|latvia|estonia|montenegro|malta|san marino|holy see)
 - Solo travel here would be super fun! This country is not renowned for its saftey but is definetly not dangerous and will be okay for solo travel! \n
 ^\n
 ^ At least breif research into saftey measures on sites such as  "solotravellersworld.com" and "worldpacker.com" will be imperative to ensure you get the best from your trip!\n
 ^\n
 ^Would you like further information on accomodation or transport?\n
-^(type: "accomodation" or "transport")
+^(type: "accomodation" or "transport") {topic= safety}
 
-+[*] safety [*] (russia|ukraine|belarus|serbia|moldova|bosnia|macedonia)
++ (russia|ukraine|belarus|serbia|moldova|bosnia|macedonia)
 - That country is gorgeous- unfortuetly solo travel here is not recomended and could be unsafe.\n
 ^\n
 ^Perhaps consider travelling with a group or waiting until you are a more experinaced traveller to go here!\n
@@ -181,8 +266,295 @@
 ^ RESEARCH INTO THIS COUNTRY ON "solotravellersworld.com" and "worldpacker.com" IS ESSENTIAL FOR TRAVEL THERE!\n
 ^\n
 ^Can I intrest you in any other information on accomodation or transport for this country or another?\n
-^(type: "accomodation" or "transport")
+^(type: "accomodation" or "transport") {topic= safety}
 
++ [*] safety [*]
+- Excellant inquiry!\n
+^ \n
+^ Some of Europes safest countries for solo travel are: \n
+^\n
+^ - Germany \n
+^ - Italy \n
+^ - Spain \n
+^ - Poland \n
+^ - Austria \n
+^ \n
+^ Do none of these take your fancy? Type "safety" again for a different list of europes safest places! {weight=10} {topic= safety}
+- Youre in luck! I know all about europes safest countries! Here are some good examples: \n
+^\n
+^ - Netherlands \n
+^ - Belgium \n
+^ - Sweden \n
+^ - Czech Republic
+^ - Portugal \n
+^ - Monaco \n
+^ \n
+^ If none of these are what you're after type "safety" again for a new selection of europes safest places! {weight=10} {topic= safety}
+- Some safe european countries include: \n
+^\n
+^ - Switzerland \n
+^ - Denmark \n
+^ - Finland \n
+^ - Norway \n
+^ - Ireland \n
+^ \n
+^ Typing me another message with the word "safety" will let me know youre after new selection of europes safest places! Give it a go! {weight=10} {topic= safety}
+- Europe has so many safe places! Especially for solo travel! looking into:
+^\n
+^ - Croatia \n
+^ - Slovenia \n
+^ - Luxembourg \n
+^ - Iceland \n
+^ - Andorra \n
+^ - Lichtenstein \n
+^ \n
+^ may be for you!
+^ \n
+^ Hopefully one of these takes your fancy! If not let me know by typing "safety" and Ill send you other suggestions form my database! {weight=10} {topic= safety}
 
+< topic safety
 
+> topic accomodation
 
++*
+% finding somewhere to stay is super important let me see what i know
+- So when it comes to accomdation I can advice you based on your desired country or where it is youre looking to stay! \n
+^\n 
+^I know about hostels, hotels and air bnbs! Pick my brain!\n
+^\n
+^Please include "country name", "hostel", "hotel" or "air bnb" in your next message according to what you want to know!
+
++[*] (hotel|hotels) [*]
+- Staying in a hotel sounds lovely\n
+^ \n
+^ These are 6 countries renouned for having lovely hotels!\n
+^\n
+^ - Netherlands \n
+^ - UK \n
+^ - Russia \n
+^ - Romania \n
+^ - Belgium \n
+^ - San Marino \n
+^\n
+^ If none of these take your fancy type "hotel" again and I can give you other recomendations! {weight=10} {topic= accomodation}
+- Oooo a fancy choice of accomodation!\n
+^\n
+^ Would a hotel in ... \n
+^ \n
+^ - Ukraine \n
+^ - Sweden \n
+^ - Czech Republic \n
+^ - Hungary \n
+^ - Belarus \n
+^ \n
+^ ... peak your intrest? They're all gorgeous countries!\n
+^ \n
+^ If not type "hotel" in your next message and ill send some other country suggestions for hotel living your way! {weight=10} {topic= accomodation}
+- Great decision! Safe, secure and adaptable to budget! \n
+^\n
+^ Ever visited:\n
+^ \n
+^ - Serbia \n
+^ - Bulgaria \n 
+^ - Slovakia \n 
+^ - Finalnd \n
+^ - Norway \n
+^\n
+^ Theyre all countries with beautiful hotels!\n
+^ \n
+^ If none of these are of intrest include the word "hotel" in your next message and ill send over a new list!{weight=10} {topic= accomodation}
+- I too am partical to a hotel stay! \n
+^ \n
+^ Places on my travel list with great hotels include: \n
+^ \n
+^ - Croatia \n
+^ - Moldova \n
+^ - Bosnia \n
+^ - Albania \n
+^ - Lithuania \n
+^ - Iceland \n
+^ \n
+^ Dont like the sound of any of these? No stress! type "hotel" again and I'll find some other places you may like! {weight=10} {topic= accomodation}
+- A lovely choice! So many hotels are beautiful! \n
+^ \n
+^ I've heard staying in a hotel in:\n
+^ \n
+^ - Macedonia \n
+^ - Latvia \n
+^ - Estonia \n
+^ - Monetnegro \n
+^ - Andorra \n
+^ - Monaco \n
+^ \n
+^ is guaranteed to be a good time! \n
+^\n
+^ If you dont want to stay in a hotel in any of these countries send me another message syaing "hotel" and Ill find some new sugesstions for you! {weight=10} {topic= accomodation}
+
++[*] hostel [*]
+- Hostel staying! Great choice! Maybe look at a visit to:\n
+^\n
+^ - Netherlands \n
+^ - UK \n
+^ - Romania \n
+^ - Belgium \n
+^ - Sweden \n
+^ - Czech Republic \n
+^ \n
+^ There are great hostels in these countries! \n
+^ \n
+^ If none of these appeal to you type the word "hostel" in your next message and I'll share some other countries with great hostels! \n
+^ \n
+^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+- Not to be biased but hostels are my favourite kind of accomodation, especially in Europe! \n
+^ \n
+^ Of the countries I know here are some known for great hostels: \n
+^ \n
+^ - Hungary \n
+^ - Bulgaria \n
+^ - Slovakia \n
+^ - Finalnd \n
+^ - Norway \n
+^ - Croatia \n
+^ \n 
+^ If none of these intrest you I know soem more! Just type "hostel" in your next message and I'll give you some more options! \n
+^\n
+^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+- Excellant choice! Europe is known for good hostels! Of the 38 european countries I'd approve for hostel living here are a few: \n
+^ \n
+^ - Moldova \n
+^ - Bosnia \n
+^ - Lithuania \n
+^ - Macedonia \n
+^ - Latvia \n
+^ - Estonia \n
+^ \n
+^ Dont feel like visiting these countries on your trip? Dont worry! Type "hostel" in your next message and I'll reccomend a diffrent selection! \n
+^ \n
+^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+- Ooooo I love staying in hostels! \n
+^\n
+^ Why not look at visiting:
+^\n
+^ - Iceland \n
+^ - Andorra \n
+^ - Monaco \n
+^ - San Marino \n
+^ - Malta \n
+^ - Portugal \n
+^ \n
+^ All of these places offer an amazing variety of great hostels to travellers! \n
+^ \n
+^ If you include the word "hostel" in your next message I can search my data base for other countries where hostels are recommedned for you! \n
+^ \n
+^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+- Staying in hostels is one of the best choices when experiancing Europe!\n
+^ \n
+^  Hostels in: \n
+^ \n
+^ - Switzerland \n
+^ - Slovenia \n
+^ - France \n
+^ - Luxembourg \n
+^ - Spain \n
+^ - Denmark \n
+^ - Italy \n
+^ \n
+^ are awesome! \n
+^ \n
+^ Dont like the sounds of any of these? dont worry! Use the word "hostel" in your next message and I'll throw some more ideas your way! \n
+^ \n
+^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+- Woop Woop! Im a big fan of staying in hostel when travelling! \n
+^ \n
+^ Visiting: \n
+^ \n
+^ - Lichenstein
+^ - Ireland
+^ - Holy See
+^ - Geramny
+^ - Poland
+^ - Austria
+^ - Greece
+^ \n
+^ are incredible choices if hostels are your choice of accomodation! \n
+^ \n
+^ Maybe other countries would be of more inerest to you? Type "hostel" in your next message and I can recommend a diffrent list of countries for you! \n
+^ \n
+^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+
++ [*] hostel tips [*]
+- Thanks for asking about hostel tips! Its good to know you're gathering the facts! \n
+^ \n
+^ Hostels are only as safe as you make them! DO NOT FORGET: \n
+^ \n
+^ - Always bring a padlock for your stay: hostels do not guarentee the safety of your belongings - all storage spaces you are provided with in a hostel will be padlock-able: take advantage of this and protect your things!
+^ \n
+^ - Do your best to only stay at big chain hostels: smaller hostels can be seedy or attract the wrong crowd, despite being dirt cheap. Some of the best hostel chains in Europes include "Generator hostels", "a&o hostels" and "Hostel One" but the continent has loads more amazing ones! It is easy to check if a hostel is well rated by reading google reviews before booking your stay make sure to do your research! \n
+^ \n
+^ - Check if bedding is included/available to rent! Not all hostel beds come with bed linens and sheets provided; some exepct you to bring your own, others allow you to rent bedding front the front desk and some come with it provded at no extra cost. Good hostels will always advertise wheter there beds come with bedding or not- always check! \n
+^ \n 
+^ - Be wary and on alert when socialsiing at hostels - Hostels are great places to meet cool, intrestign and diverse tpes of people! Just make sure to apply your common sense and the basics of "stranger danger" if you choose to socialise at hostels! For example: do not make any valuables you may have known to people you meet, drink responsbily if in unfamilar places and always let hostel staff know if you feel unsafe or uncomftable in your dorm/any common spaces. \n 
+^ \n
+^ These are some of the basics you should know about staying at Europes may great hostels! Nevertheless I urge you to do further research! \n
+^ \n
+^ Look on websites such as "hostelgeeks.com", "hostelworld.com" and "weareglobaltravellers.com" for more vital information on staying in hostels! You can also use soem of these websites to book hostels for your trip!
+
++[*] air bnb [*]
+- Air BnB's are a lovely choice! They can fit to a variety of budgets and fit a lot of other personal prefrences! \n
+^ \n
+^ Have you tried looking into any of the countries below? They all have a very well established Air BnB network! \n
+^ \n
+^ - Malta \n
+^ - Portugal \n
+^ - Switzerland \n
+^ - Slovenia \n
+^ - France \n
+^ \n 
+^ If none of these are your cup of tea let me know! Type "air bnb" in your next message and I'll give oyu a diffrent list of great countries for Air BnB-ing! {topic= accomodation}
+- I love booing an Air BnB! \n
+^ \n
+^ Some of the best countries for established AirBnB owners in Europe include: \n
+^ \n
+^ - Luxembourg \n
+^ - Spain \n
+^ - Denmark \n
+^ - Lichenstein \n
+^ - Ireland \n
+^ \n
+^ I have other reccomendation if youd like to stay at an Air BnB! Just include "air bnb" in your next message and I'll let you know some other countries I love for staying in BnB's! {topic= accomodation}
+- A great choice of accomodation! Air BnB's can be so beautiful and definitely contribute a great trip! \n
+^ \n
+^  Id reccomend some beautiful BnB's in countries such as:
+^ \n
+^ - Holy See \n
+^ - Germany \n
+^ - Poland \n
+^ - Austria \n
+^ - Greece \n
+^ - Italy \n
+^ \n
+^ If you dont like these options let me know by including "air bnb" in your next message and I'll find you a new list of countries with lovely BnB's! {topic= accomodation}
+
++ [*] (netherlands|uk|united kingdom|belgium|sweden|hungary|slovakia|finland|norway|moldova|bosnia|lithuania|latvia|iceland|andorra|monaco|san marino|portugal|switzerland|france|luxembourg|spain|ireland|germany|poland|greece|italy) [*]
+- What a great choice! Luckily this country has so many great options for accomodation! \n
+^ \n
+^ I can safely reccomend looking at an Air BnB, hotel room or hostel for your trip there! \n
+^ \n
+^ Consider you budget and preferance when thinking about where to stay as the choice is yours! {topic= accomodation}
+
++ [*] (russia|ukraine|belarus|serbia|albania|montenegro) [*]
+- You'd have a great time there! Try looking at hotels! \n
+^ \n
+^ Hotels are the best places to stay in this country and would be reccomend over hostels or Air BnB's here for an enjoyable stay! {topic= accomodation}
+
++ [*] (romania|czech republic|bulgaria|croatia|macedonia|estonia) [*]
+- What a beautiful country! \n
+^ \n
+^ Staying in hotels and hostels will be your best bet here! {topic= accomodation}
+
++ [*] (malta|slovenia|denmark|lichenstein|holy see|vatican city) [*]
+- Wow! I love it there myself! \n
+^ \n
+^ The best accodation options here are defiently hostels and Air BnB's here! {topic= accomodation}
+
+< topic accomodation 
