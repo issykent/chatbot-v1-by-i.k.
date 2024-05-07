@@ -558,3 +558,264 @@
 ^ The best accodation options here are defiently hostels and Air BnB's here! {topic= accomodation}
 
 < topic accomodation 
+
+> topic activities
+
++ *
+%  yayy the fun stuff lets get to buisness and talk what you want out of your trip
+- There are so many types of holiday available to you in Europe! \n
+^ \n
+^ My data base can inform you on the following catagories: \n
+^ \n
+^ - Outdoor holidays \n
+^ Perefct if you love to hike and spend time in nature! \n
+^ \n
+^ - Costal trips \n
+^ Love beaches? Spending time in the sun? This may be the holiday type for you! These are also the kinds of trips I reccomend for families or group trips! \n
+^ \n
+^ - Sight seeing/cultural adventures \n
+^ Europe is brillaint for this! See wonders of the world, cultural sites and incredible feats of humanity on these journeys! \n
+^ \n
+^ - City breaks \n
+^ Some of the worlds most beautiful cities are only a flight away! An excellent choice! These trips can also make great romantic get aways and trips with smaller groups of friends! \n
+^ \n
+^ Let me know which of these kinds of holiday actvities/trips youre most intrested in! \n 
+^ \n
+^ I can also let you know about what's available in a specific country! Just type the country's name in your next message.
+
++ [*] (outdoor|hike|hiking|mountain|mountains|forst|river|forests|rivers) [*]
+- Over 30 countries in europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
+^ \n
+^ - the UK \n
+^ - Switzerland \n
+^ - Italy \n
+^ - France \n
+^ - Spain \n
+^ \n
+^ Do any of these intrest you? If not include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+- Over 30 countries in europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
+^ \n
+^ - Croatia \n
+^ - Ireland\n
+^ - Iceland \n
+^ - Portugal \n
+^ - Germany \n
+^ \n
+^ Do any of these intrest you? If not include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+- Over 30 countries in europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
+^ \n
+^ - Greece \n
+^ - Poland \n
+^ - Malta \n
+^ - Slovenia \n
+^ - Austria \n
+^ \n
+^ Do any of these intrest you? If not include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+- Over 30 countries in europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
+^ \n
+^ - Denmark \n
+^ - Sweden \n
+^ - Romania \n
+^ - Moldova \n
+^ - Andorra \n
+^ \n
+^ Do any of these intrest you? If not include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+- Over 30 countries in europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
+^ \n
+^ - Czech republic \n
+^ - Bulgaria \n
+^ - Albania \n
+^ - Latvia \n
+^ - Finland \n
+^ \n
+^ Do any of these intrest you? If not include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+- Over 30 countries in europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
+^ \n
+^ - Norway \n
+^ - Macedonia \n
+^ - San Marino \n
+^ - Monte negro \n
+^ - Bosnia \n
+^ \n
+^ Do any of these intrest you? If not include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+
++ [*] (costal|coast|beach|sun|sunny|good weather|bright weather|warm|hot|beaches|coasts) [*]
+- Europes coasts are breath taking! Try looking into: \n
+^ \n
+^ - Italy \n
+^ - France \n
+^ - Croatia \n
+^ \n
+^ for beautiful beach destinations! \n
+^ \n
+^ Dont fancy any of these? Types "other costal desitinations" and I can recommend some others! {wieght= 10} {topic= activities}
+- Europes coasts are breath taking! Try looking into: \n
+^ \n
+^ - Spain \n
+^ - Portugal \n
+^ - Greece \n
+^ \n
+^ for beautiful beach destinations! \n
+^ \n
+^ Dont fancy any of these? Types "other costal desitinations" and I can recommend some others! {wieght= 10} {topic= activities}
+- Europes coasts are breath taking! Try looking into: \n
+^ \n
+^ - Malta \n
+^ - Albania \n
+^ - Monte negro \n
+^ \n
+^ for beautiful beach destinations! \n
+^ \n
+^ Dont fancy any of these? Types "other costal desitinations" and I can recommend some others! {wieght= 10} {topic= activities}
+
++ [*] (sight seeing|sights|wonders|cultural|culture|cultures) [*] 
+- In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
+^ \n
+^ - The UK \n
+^ - Netherlands \n
+^ - Italy \n
+^ - France \n
+^ - Spain \n
+^ \n
+^ Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+- In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
+^ \n
+^ - Holy see \n
+^ - Ireland \n
+^ - Russia \n
+^ - Ukraine \n
+^ - Belgium \n
+^ \n
+^ Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+- In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
+^ \n
+^ - Germany \n
+^ - Greece \n
+^ - Poland \n
+^ - Malta \n
+^ - Slovenia \n
+^ \n
+^ Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+- In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
+^ \n
+^ - Denmark \n
+^ - Austria \n
+^ - Moldova \n
+^ - Serbia \n
+^ - Czech Republic \n
+^ \n
+^ Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+- In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
+^ \n
+^ - Hungary \n
+^ - Bulgaria \n
+^ - Albania \n
+^ - Norway \n
+^ - Macedonia \n
+^ \n
+^ Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+- In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
+^ \n
+^ - San Marino \n
+^ - Monte Negro \n
+^ - Monaco \n
+^ - Estonia \n
+^ \n
+^ Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+
++ [*] (city|cities|city break) [*]
+- Europe is ideal for city breaks! Look into a trip to: \n
+^ \n
+^ - the UK \n
+^ - Netherlands \n
+^ - Italy \n
+^ - France \n
+^ - Spain \n
+\n
+^ If youre not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+- Europe is ideal for city breaks! Look into a trip to: \n
+^ \n
+^ - Switzerland \n
+^ - Holy See \n
+^ - Ireland \n
+^ - Lichenstein \n
+^ - Portugal \n
+\n
+^ If youre not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+- Europe is ideal for city breaks! Look into a trip to: \n
+^ \n
+^ - Russia \n
+^ - Belgium \n
+^ - Germany \n
+^ - Greece \n
+^ - Poland \n
+\n
+^ If youre not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+- Europe is ideal for city breaks! Look into a trip to: \n
+^ \n
+^ - Ukraine \n
+^ - Denmark \n
+^ - Austria \n
+^ - Sweden \n
+^ - Romania \n
+^ - Belarus \n
+\n
+^ If youre not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+- Europe is ideal for city breaks! Look into a trip to: \n
+^ \n
+^ - Serbia \n
+^ - Czech Republic \n
+^ - Hungary \n
+^ - Slovakia \n
+^ - Latvia \n
+^ - Finalnd \n
+\n
+^ If youre not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+- Europe is ideal for city breaks! Look into a trip to: \n
+^ \n
+^ - Norway \n
+^ - Lithuania \n
+^ - Monte negro \n
+^ - Monaco \n
+^ - Estonia \n
+^ - Bosnia \n
+\n
+^ If youre not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+
++ [*] (italy|france|spain|greece|montenegro|monte negro) [*]
+- The diversity available to you here is incredible - This place can provide you with stunning outdoor adventures, beautiful coastal places, breathtaking sights to see and lots of cities for memorable getaways. This is a great country for all kinds of people! \n
+^ \n
+^ There are areas here where a variety of actvities are available to you! Do some further researach to find specific areas within this country that will let you get everything you could ask for from your Europe trip!
+
++ [*] (netherlands|holy See|russia|ukraine|belgium|serbia|hungary|monaco|estonia) [*]
+- This country will provde you with wonderful sight seeing opportunities and city breaks! Look into some of there most popular places for these activties and you'll have an incredible trip!
+
++ [*] (uk|united kingdom|ireland|germany|poland|denmark|austria|czech republic|norway) [*]
+- What a gorgeous country! There are some ideal places here for outdoor holidays! \n
+^ \n
+^ You can also count on lovely city breaks and wonderful sight seeing opportunities here.
+
++ [*] croatia [*]
+- The natural beauties here are what youre going to want to visit! \n
+^ \n
+^ Count on a brillaint costal or outdoor trip here!
+
++ [*] (switzerland|sweden|romania|latvia|finland) [*]
+- This country is ideal for outdoorsy activties or city  breaks! It can offer a range of beauty from architecture to natural lanscapes depending on what youre after- some places here can offer an ovelap of both! Have a look online to find out where!
+
++ [*] (iceland|andorra) [*]
+- The natural landscapes and outdoor areas here are what you must go and see! If youre after outdoor activities, from hiking to kayaking, a trip here would be perfect.
+
++ [*] [*]
+- 
+
++ [*] [*]
+-
+
++ [*] [*]
+-
+
++ [*] [*]
+-
+
+> topic activities
