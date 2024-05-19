@@ -1,17 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
 
 * {
-  font-family: "Inter", Arial;
+  font-family: "Inter", helvetica;
   font-size: 12pt;
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  background: #c5e5a2;
+  background: url('/travelbotpattern2.jpg');
+  background-size: cover;
 }
 
 .title {
+  font-family:'Franklin Gothic Medium';
   height: 5vh;
   display: flex;
   align-items: center;
@@ -19,23 +21,25 @@ body {
 }
 
 .title h1 {
-  font-size: 50px
-  letter-spacing; 1.25px;
-  color; #533b31;
+  font-family: copperplate;
+  font-size: 25px;
+  letter-spacing: -0.5px;
+  color: #533b31;
 }
 
 .wrapper {
-  height: 95vh;
+  height: 100vh;
 }
 
 .chat {
-  background: #9a0000;
+  background: #042618;
   box-shadow: 10px 10px 0px #533b31;
   overflow: scroll;
   height: 100%;
+  width: 160%;
   display: flex;
   flex-direction: column;
-  padding: 20px 20px 0px 20px;
+  padding: 10px 20px 0px 20px;
   border-radius: 10px;
 }
 
@@ -64,8 +68,8 @@ body {
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: #0c0c0c;
-  color: #fffefc;
+  background: #fdfbe1;
+  color: #0c0c0c;
 }
 
 .messages .self {
@@ -83,7 +87,7 @@ body {
   position: sticky;
   bottom: -1px;
   padding: 10px 0px 20px;
-  background: white;
+  /* background: white; */
 }
 
 .actions input {
@@ -99,6 +103,20 @@ body {
 
 input:focus {
   border-bottom: 2px solid #533b31;
+}
+
+.suggestion {
+  font-family: monospace;
+  font-size: 80%;
+  padding-top: 10px;
+  display: inline-block;
+  opacity: 80%;
+}
+
+.toptip {
+  font-family: 'copperplate';
+ font-size: 100%;
+ padding-top:10px;
 }
 
 @media all and (min-width: 720px) {
