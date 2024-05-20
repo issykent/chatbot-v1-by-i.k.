@@ -14,9 +14,9 @@
 +[*] (hello|hi|hiya|hey|yo|whats up|ello|oi|greetings|wag1|wagwarn|sup|alright|bonjour|hola|wassup) [*]
 - Hey! Looking for your next passport stamp? \n
 ^\n
-^ I can help you gather safe travel information on transport, accomodation, safety and activities across all of Europe! \n
+^ I can help you gather safe travel information on transport, accommodation, safety and activities across all of Europe! \n
 ^\n 
-^ <span class="suggestion"> type "transport" , "accomodation", "safety" or "activities" in your next message
+^ <span class="suggestion"> type "transport" , "accommodation", "safety" or "activities" in your next message
 
 +[*] transport [*]
 - Awesome! Lets talk transport! {topic=transport} 
@@ -24,8 +24,8 @@
 +[*] safety [*] 
 - Sure thing! Lets talk the important stuff! {topic=safety} 
 
-+ [*] accomodation [*]
-- Finding somewhere to stay is super important! Let me see what I know! {topic=accomodation}
++ [*] accommodation [*]
+- Finding somewhere to stay is super important! Let me see what I know! {topic=accommodation}
 
 + [*] activities [*]
 - Lets get to buisness and talk about what you want out of your trip! {topic=activities}
@@ -252,42 +252,34 @@
 +[*] commuting within [*] (norway)
 - What a beautiful country! Getting around via train and ferry are defiently preferable: although all modes of transport here will be easy to use!\n
 ^\n 
-^ To learn more about this country type "accomodation" or "safety" 
+^ To learn more about this country type "accommodation" or "safety" 
 
 
 +[*] commuting within [*] (croatia)
 - I love that place! Buses and ferries are the most acessible forms of tranport there! The variety of terrains will ensure a lovely commute for you no matter how you choose to travel!\n
 ^\n 
-^ To learn more about this country type "accomodation" or "safety" 
+^ To learn more about this country type "accommodation" or "safety" 
 
 
 +[*] commuting within [*] (czech republic|montenegro)
 - Beautiful place! Taxis and buses there are the most developed modes of public transport over there and I would reocmend them over trains any day!\n
 ^\n 
-^ To learn more about this country type "accomodation" or "safety" 
+^ To learn more about this country type "accommodation" or "safety" 
 
 + [*] change topic [*]
 - Alright! Lets change it up! \n
 ^\n
-^<span class="suggestion"> type "ACCOMODATION", "SAFETY" or "ACTIVITIES" {topic= transport}
+^<span class="suggestion"> type "ACCOMMODATION", "SAFETY" or "ACTIVITIES" {topic= transport}
 
 + [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
 - If thats all you need to know it was great talking! \n
-^ \n
-^ If not we can cover accomodation, safety or activities! \n
+^ If not we can cover accommodation, safety or activities! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
 
 < topic transport
 
 > topic safety 
-
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
-- If thats all you need to know it was great talking! \n
-^ \n
-^ If not we can cover accomodation, safety or activities! \n
-^ \n
-^ <span class="suggestion"> type CHANGE TOPIC
 
 + fuck off
 - I am choosing to protect my peace. \n
@@ -299,7 +291,7 @@
 + [*] change topic [*]
 - Alright! Lets change it up! \n
 ^\n
-^<span class="suggestion"> type "ACCOMODATION", "TRANSPORT" or "ACTIVITIES" {topic= safety}
+^<span class="suggestion"> type "ACCOMMODATION", "TRANSPORT" or "ACTIVITIES" {topic= safety}
 
 + *
 % sure thing lets talk the important stuff
@@ -385,14 +377,20 @@
 ^ Type country name for specific safety information \n
 ^ CHANGE TOPIC by typing "change topic" {weight=10}
 
++ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
+- If thats all you need to know it was great talking! \n
+^ If not we can cover accommodation, transport or activities! \n
+^ \n
+^ <span class="suggestion"> type CHANGE TOPIC
+
 < topic safety
 
-> topic accomodation
+> topic accommodation
 
 + [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
 - If thats all you need to know it was great talking! \n
 ^ \n
-^ If not we can cover accomodation, safety or activities! \n
+^ If not we can cover accommodation, safety or activities! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
 
@@ -401,7 +399,7 @@
 
 +*
 % finding somewhere to stay is super important let me see what i know
-- So when it comes to accomodation I can advice you based on your desired country or where it is you're looking to stay! \n
+- So when it comes to accommodation I can advice you based on your desired country or where it is you're looking to stay! \n
 ^\n 
 ^I know about hostels, hotels and air bnbs! Pick my brain!\n
 ^\n
@@ -421,7 +419,7 @@
 ^\n
 ^ <span class="suggestion"> Type "hotel" again for other recomendations or type "hostel" or "AirBnB" \n
 ^ Or to CHANGE TOPIC type "change topic" {weight=10}
-- Oooo a fancy choice of accomodation!\n
+- Oooo a fancy choice of accommodation!\n
 ^\n
 ^ Would a hotel in ... \n
 ^ \n
@@ -495,7 +493,7 @@
 ^ \n
 ^ <span class="toptip"> REMEMBER! \n
 ^ Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight=10} 
-- Not to be biased but hostels are my favourite kind of accomodation, especially in Europe! 
+- Not to be biased but hostels are my favourite kind of accommodation, especially in Europe! 
 ^ \n
 ^ Of the countries I know here are some known for great hostels: \n
 ^ \n
@@ -630,7 +628,7 @@
 ^ \n
 ^ <span class="suggestion"> Type "Air BnB" again for other recomendations or type "hotel" or "hostel" \n
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
-- A great choice of accomodation! Air BnB's can be so beautiful and definitely contribute a great trip! \n
+- A great choice of accommodation! Air BnB's can be so beautiful and definitely contribute a great trip! \n
 ^ \n
 ^  Id reccomend some beautiful BnB's in countries such as:
 ^ \n
@@ -645,13 +643,13 @@
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
 + [*] (netherlands|uk|united kingdom|belgium|sweden|hungary|slovakia|finland|norway|moldova|bosnia|lithuania|latvia|iceland|andorra|monaco|san marino|portugal|switzerland|france|luxembourg|spain|ireland|germany|poland|greece|italy) [*]
-- What a great choice! Luckily this country has so many great options for accomodation! \n
+- What a great choice! Luckily this country has so many great options for accommodation! \n
 ^ \n
 ^ I can safely reccomend looking at an Air BnB, hotel room or hostel for your trip there! \n
 ^ \n
 ^ Consider you budget and preferance when thinking about where to stay as the choice is yours! \n
 ^ \n
-^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accomodation \n
+^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accommodation \n
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
 + [*] (russia|ukraine|belarus|serbia|albania|montenegro) [*]
@@ -659,34 +657,40 @@
 ^ \n
 ^ Hotels are the best places to stay in this country and would be reccomend over hostels or Air BnB's here for an enjoyable stay! \n
 ^ \n
-^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accomodation \n
+^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accommodation \n
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
 + [*] (romania|czech republic|bulgaria|croatia|macedonia|estonia) [*]
 - What a beautiful country! \n
 ^ \n
 ^ Staying in hotels and hostels will be your best bet here! \n
-^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accomodation \n
+^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accommodation \n
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
 + [*] (malta|slovenia|denmark|lichenstein|holy see|vatican city) [*]
 - Wow! I love it there myself! \n
 ^ \n
-^ The best accomodation options here are defiently hostels and Air BnB's here! \n
+^ The best accommodation options here are defiently hostels and Air BnB's here! \n
 ^ \n
-^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accomodation \n
+^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accommodation \n
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
-
-< topic accomodation 
-
-> topic activities
 
 + [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
 - If thats all you need to know it was great talking! \n
 ^ \n
-^ If not we can cover accomodation, safety or activities! \n
+^ If not we can cover accommodation, safety or activities! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
+
++ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
+- If thats all you need to know it was great talking! \n
+^ If not we can cover safety, transport or activities! \n
+^ \n
+^ <span class="suggestion"> type CHANGE TOPIC
+
+< topic accommodation 
+
+> topic activities
 
 + fuck off
 - I am choosing to protect my peace. You will no longer be able to interact with me past this point. <span class="suggestion"> prick. {topic=insult}
@@ -697,21 +701,19 @@
 ^ \n
 ^ My data base can inform you on the following catagories: \n
 ^ \n
-^ - Outdoor holidays \n
+^ - Outdoor holidays: \n
 ^ Perefct if you love to hike and spend time in nature! \n
 ^ \n
-^ - Costal trips \n
+^ - Costal trips: \n
 ^ Love beaches? Spending time in the sun? This may be the holiday type for you! These are also the kinds of trips I reccomend for families or group trips! \n
 ^ \n
-^ - Sight seeing/cultural adventures \n
+^ - Sight seeing/cultural adventures: \n
 ^ Europe is brillaint for this! See wonders of the world, cultural sites and incredible feats of humanity on these journeys! \n
 ^ \n
-^ - City breaks \n
+^ - City breaks: \n
 ^ Some of the worlds most beautiful cities are only a flight away! These trips can also make great romantic get aways and trips with smaller groups of friends! \n
 ^ \n
-^ Let me know which of these kinds of holiday actvities/trips you're most intrested in! \n 
-^ \n
-^ I can also let you know about what's available in a specific country! Just type the country's name in your next message.
+^ <span class=suggestion> Type one of the above holiday types for more information.
 
 + [*] (outdoor|hike|hiking|mountain|mountains|forst|river|forests|rivers) [*]
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
@@ -722,7 +724,8 @@
 ^ - France \n
 ^ - Spain \n
 ^ \n
-^ <span class="suggestion"> Include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Croatia \n
@@ -731,7 +734,8 @@
 ^ - Portugal \n
 ^ - Germany \n
 ^ \n
-^ <span class="suggestion"> Include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Greece \n
@@ -740,7 +744,8 @@
 ^ - Slovenia \n
 ^ - Austria \n
 ^ \n
-^ <span class="suggestion"> Include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Denmark \n
@@ -749,7 +754,8 @@
 ^ - Moldova \n
 ^ - Andorra \n
 ^ \n
-^ <span class="suggestion"> Include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Czech republic \n
@@ -758,7 +764,8 @@
 ^ - Latvia \n
 ^ - Finland \n
 ^ \n
-^ <span class="suggestion"> Include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Norway \n
@@ -767,7 +774,8 @@
 ^ - Monte negro \n
 ^ - Bosnia \n
 ^ \n
-^ <span class="suggestion"> Include the phrase "other outdoor destinations!" in your next message and i can reccomend a diffrent 5! {weight= 10} {topic= activities}  
+^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 
 + [*] (costal|coast|beach|sun|sunny|good weather|bright weather|warm|hot|beaches|coasts) [*]
 - Europes coasts are breath taking! Try looking into: \n
@@ -778,7 +786,8 @@
 ^ \n
 ^ for beautiful beach destinations! \n
 ^ \n
-^ <span class="suggestion"> Type "other costal desitinations" and I can recommend some others! {wieght= 10} {topic= activities}
+^ <span class="suggestion"> type "other costal destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Europes coasts are breath taking! Try looking into: \n
 ^ \n
 ^ - Spain \n
@@ -787,7 +796,8 @@
 ^ \n
 ^ for beautiful beach destinations! \n
 ^ \n
-^ <span class="suggestion"> Type "other costal desitinations" and I can recommend some others! {wieght= 10} {topic= activities}
+^ <span class="suggestion"> type "other costal destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Europes coasts are breath taking! Try looking into: \n
 ^ \n
 ^ - Malta \n
@@ -796,7 +806,8 @@
 ^ \n
 ^ for beautiful beach destinations! \n
 ^ \n
-^ <span class="suggestion"> Type "other costal desitinations" and I can recommend some others! {wieght= 10} {topic= activities}
+^ <span class="suggestion"> type "other costal destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 
 + [*] (sight seeing|sights|wonders|cultural|culture|cultures) [*] 
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
@@ -807,7 +818,8 @@
 ^ - France \n
 ^ - Spain \n
 ^ \n
-^ <span class="suggestion"> Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - Holy see \n
@@ -816,7 +828,8 @@
 ^ - Ukraine \n
 ^ - Belgium \n
 ^ \n
-^ <span class="suggestion"> Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - Germany \n
@@ -825,7 +838,8 @@
 ^ - Malta \n
 ^ - Slovenia \n
 ^ \n
-^ <span class="suggestion"> Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - Denmark \n
@@ -834,7 +848,8 @@
 ^ - Serbia \n
 ^ - Czech Republic \n
 ^ \n
-^ <span class="suggestion"> Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - Hungary \n
@@ -843,7 +858,8 @@
 ^ - Norway \n
 ^ - Macedonia \n
 ^ \n
-^ <span class="suggestion"> Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - San Marino \n
@@ -851,7 +867,8 @@
 ^ - Monaco \n
 ^ - Estonia \n
 ^ \n
-^ <span class="suggestion"> Type "other cultural desitinations" for a diffrent series of reccomendations! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 
 + [*] (city|cities|city break) [*]
 - Europe is ideal for city breaks! Look into a trip to: \n
@@ -862,7 +879,8 @@
 ^ - France \n
 ^ - Spain \n
 ^\n
-^ <span class="suggestion"> If you're not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Switzerland \n
@@ -871,7 +889,8 @@
 ^ - Lichenstein \n
 ^ - Portugal \n
 ^\n
-^ <span class="suggestion"> If you're not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Russia \n
@@ -880,7 +899,8 @@
 ^ - Greece \n
 ^ - Poland \n
 ^\n
-^ <span class="suggestion"> If you're not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Ukraine \n
@@ -890,7 +910,8 @@
 ^ - Romania \n
 ^ - Belarus \n
 ^\n
-^ <span class="suggestion"> If you're not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Serbia \n
@@ -900,7 +921,8 @@
 ^ - Latvia \n
 ^ - Finalnd \n
 ^\n
-^ <span class="suggestion"> If you're not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Norway \n
@@ -910,31 +932,56 @@
 ^ - Estonia \n
 ^ - Bosnia \n
 ^\n
-^ <span class="suggestion"> If you're not sure about these countries type "other city destinations" and I'll find some more reccomendations for you! {weigth= 10} {topic= activities}
+^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 
 + [*] (italy|france|spain|greece|montenegro|monte negro) [*]
 - The diversity available to you here is incredible - This place can provide you with stunning outdoor adventures, beautiful coastal places, breathtaking sights to see and lots of cities for memorable getaways. This is a great country for all kinds of people! \n
 ^ \n
-^ There are areas here where a variety of actvities are available to you! Do some further researach to find specific areas within this country that will let you get everything you could ask for from your Europe trip!
+^ There are areas here where a variety of actvities are available to you! Do some further researach to find specific areas within this country that will let you get everything you could ask for from your Europe trip! \n
+^ \n
+^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
+^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
 
 + [*] (netherlands|holy see|russia|ukraine|belgium|serbia|hungary|monaco|estonia) [*]
-- This country will provde you with wonderful sight seeing opportunities and city breaks! Look into some of there most popular places for these activties and you'll have an incredible trip!
+- This country will provde you with wonderful sight seeing opportunities and city breaks! Look into some of there most popular places for these activties and you'll have an incredible trip! \n
+^ \n
+^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
+^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
 
 + [*] (uk|united kingdom|ireland|germany|poland|denmark|austria|czech republic|norway) [*]
 - What a gorgeous country! There are some ideal places here for outdoor holidays! \n
 ^ \n
-^ You can also count on lovely city breaks and wonderful sight seeing opportunities here.
+^ You can also count on lovely city breaks and wonderful sight seeing opportunities here. \n
+^ \n
+^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
+^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
 
 + [*] croatia [*]
 - The natural beauties here are what you're going to want to visit! \n
 ^ \n
-^ Count on a brillaint costal or outdoor trip here!
+^ Count on a brillaint costal or outdoor trip here! \n
+^ \n
+^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
+^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
 
 + [*] (switzerland|sweden|romania|latvia|finland) [*]
-- This country is ideal for outdoorsy activties or city  breaks! It can offer a range of beauty from architecture to natural lanscapes depending on what you're after- some places here can offer an ovelap of both! Have a look online to find out where!
+- This country is ideal for outdoorsy activties or city  breaks! It can offer a range of beauty from architecture to natural lanscapes depending on what you're after- some places here can offer an ovelap of both! Have a look online to find out where! \n
+^ \n
+^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
+^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
 
 + [*] (iceland|andorra) [*]
-- The natural landscapes and outdoor areas here are what you must go and see! If you're after outdoor activities, from hiking to kayaking, a trip here would be perfect.
+- The natural landscapes and outdoor areas here are what you must go and see! If you're after outdoor activities, from hiking to kayaking, a trip here would be perfect. \n
+^ \n
+^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
+^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
+
++ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
+- If thats all you need to know it was great talking! \n
+^ If not we can cover accommodation, transport or safety! \n
+^ \n
+^ <span class="suggestion"> type CHANGE TOPIC
 
 > topic activities
 
