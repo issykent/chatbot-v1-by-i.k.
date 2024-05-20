@@ -115,8 +115,13 @@ input:focus {
 
 .toptip {
   font-family: 'copperplate';
- font-size: 100%;
+ font-size: 130%;
  padding-top:10px;
+}
+
+.subheading {
+font-family: helvetica;
+font-weight: 20px;
 }
 
 @media all and (min-width: 720px) {

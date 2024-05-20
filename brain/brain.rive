@@ -333,7 +333,7 @@
 ^ <span class="suggestion"> type another country name or "safety" for the safest reccomendations \n
 ^ CHANGE TOPIC by typing "change topic" 
 
-+ [*] (safety|list|lists) [*]
++ [*] (safety|list|lists|safest) [*]
 - Excellant inquiry!\n
 ^ \n
 ^ Some of Europes safest countries for solo travel are: \n
@@ -370,7 +370,7 @@
 ^ <span class="suggestion"> Type "safety" or "list" for a different list of Europes safest places! \n
 ^ Type country name for specific safety information \n
 ^ CHANGE TOPIC by typing "change topic" <\span> {weight=10}
-- Europe has so many safe places! Especially for solo travel! looking into:
+- Europe has so many safe places! Especially for solo travel! looking into: \n
 ^\n
 ^ - Croatia \n
 ^ - Slovenia \n
@@ -383,7 +383,7 @@
 ^ \n
 ^ <span class="suggestion"> Type "safety" or "list" for a different list of Europes safest places! \n
 ^ Type country name for specific safety information \n
-^ CHANGE TOPIC by typing "change topic" <\span> {weight=10}
+^ CHANGE TOPIC by typing "change topic" {weight=10}
 
 < topic safety
 
@@ -408,9 +408,9 @@
 ^<span class="suggestion"> Please include "country name", "hostel", "hotel" or "air bnb" in your next message according to what you want to know!
 
 +[*] (hotel|hotels) [*]
-- Staying in a hotel sounds lovely\n
+- Staying in a hotel sounds lovely!\n
 ^ \n
-^ These are 6 countries renouned for having lovely hotels!\n
+^ These are 6 countries renouned for having lovely hotels! \n
 ^\n
 ^ - Netherlands \n
 ^ - UK \n
@@ -419,7 +419,8 @@
 ^ - Belgium \n
 ^ - San Marino \n
 ^\n
-^ <span class="suggestion"> If none of these take your fancy type "hotel" again and I can give you other recomendations! {weight=10} {topic= accomodation}
+^ <span class="suggestion"> Type "hotel" again for other recomendations or type "hostel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" {weight=10}
 - Oooo a fancy choice of accomodation!\n
 ^\n
 ^ Would a hotel in ... \n
@@ -432,20 +433,22 @@
 ^ \n
 ^ ... peak your intrest? They're all gorgeous countries!\n
 ^ \n
-^ <span class="suggestion"> If not type "hotel" in your next message and ill send some other country suggestions for hotel living your way! {weight=10} {topic= accomodation}
+^ <span class="suggestion"> Type "hotel" again for other recomendations or type "hostel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" {weight=10}
 - Great decision! Safe, secure and adaptable to budget! \n
 ^\n
-^ Ever visited:\n
+^ Ever visited: \n
 ^ \n
 ^ - Serbia \n
 ^ - Bulgaria \n 
 ^ - Slovakia \n 
 ^ - Finalnd \n
 ^ - Norway \n
-^\n
-^ Theyre all countries with beautiful hotels!\n
 ^ \n
-^ <span class="suggestion"> If none of these are of intrest include the word "hotel" in your next message and ill send over a new list!{weight=10} {topic= accomodation}
+^ Theyre all countries with beautiful hotels! \n
+^ \n
+^ <span class="suggestion"> Type "hotel" again for other recomendations or type "hostel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" {weight=10}
 - I too am partical to a hotel stay! \n
 ^ \n
 ^ Places on my travel list with great hotels include: \n
@@ -457,10 +460,11 @@
 ^ - Lithuania \n
 ^ - Iceland \n
 ^ \n
-^ <span class="suggestion"> Dont like the sound of any of these? No stress! type "hotel" again and I'll find some other places you may like! {weight=10} {topic= accomodation}
+^ <span class="suggestion"> Type "hotel" again for other recomendations or type "hostel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" {weight=10}
 - A lovely choice! So many hotels are beautiful! \n
 ^ \n
-^ I've heard staying in a hotel in:\n
+^ I've heard staying in a hotel in: \n
 ^ \n
 ^ - Macedonia \n
 ^ - Latvia \n
@@ -469,13 +473,14 @@
 ^ - Andorra \n
 ^ - Monaco \n
 ^ \n
-^ is guaranteed to be a good time! \n
-^\n
-^ <span class="suggestion"> If you dont want to stay in a hotel in any of these countries send me another message syaing "hotel" and Ill find some new sugesstions for you! {weight=10} {topic= accomodation}
+^ is guaranteed to be great! \n
+^ \n
+^ <span class="suggestion"> Type "hotel" again for other recomendations or type "hostel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" {weight=10}
 
 +[*] hostel [*]
-- Hostel staying! Great choice! Maybe look at a visit to:\n
-^\n
+- Hostel staying! Great choice! Maybe look at a visit to: \n
+^ \n
 ^ - Netherlands \n
 ^ - UK \n
 ^ - Romania \n
@@ -485,10 +490,12 @@
 ^ \n
 ^ There are great hostels in these countries! \n
 ^ \n
-^ If none of these appeal to you type the word "hostel" in your next message and I'll share some other countries with great hostels! \n
+^ <span class="suggestion"> Type "hostel" again for other recomendations or type "hotel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" \n
 ^ \n
-^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
-- Not to be biased but hostels are my favourite kind of accomodation, especially in Europe! \n
+^ <span class="toptip"> REMEMBER! \n
+^ Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight=10} 
+- Not to be biased but hostels are my favourite kind of accomodation, especially in Europe! 
 ^ \n
 ^ Of the countries I know here are some known for great hostels: \n
 ^ \n
@@ -499,9 +506,11 @@
 ^ - Norway \n
 ^ - Croatia \n
 ^ \n 
-^ If none of these intrest you I know soem more! Just type "hostel" in your next message and I'll give you some more options! \n
-^\n
-^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+^ <span class="suggestion"> Type "hostel" again for other recomendations or type "hotel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" \n
+^ \n
+^ <span class="toptip"> REMEMBER! \n
+^ Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight=10} 
 - Excellant choice! Europe is known for good hostels! Of the 38 European countries I'd approve for hostel living here are a few: \n
 ^ \n
 ^ - Moldova \n
@@ -511,9 +520,11 @@
 ^ - Latvia \n
 ^ - Estonia \n
 ^ \n
-^ Dont feel like visiting these countries on your trip? Dont worry! Type "hostel" in your next message and I'll reccomend a diffrent selection! \n
+^ <span class="suggestion"> Type "hostel" again for other recomendations or type "hotel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" \n
 ^ \n
-^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+^ <span class="toptip"> REMEMBER! \n
+^ Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight=10} 
 - Ooooo I love staying in hostels! \n
 ^\n
 ^ Why not look at visiting:
@@ -527,9 +538,11 @@
 ^ \n
 ^ All of these places offer an amazing variety of great hostels to travellers! \n
 ^ \n
-^ If you include the word "hostel" in your next message I can search my data base for other countries where hostels are recommedned for you! \n
+^ <span class="suggestion"> Type "hostel" again for other recomendations or type "hotel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" \n
 ^ \n
-^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+^ <span class="toptip"> REMEMBER! \n
+^ Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight=10} 
 - Staying in hostels is one of the best choices when experiancing Europe!\n
 ^ \n
 ^  Hostels in: \n
@@ -544,10 +557,12 @@
 ^ \n
 ^ are awesome! \n
 ^ \n
-^ Dont like the sounds of any of these? dont worry! Use the word "hostel" in your next message and I'll throw some more ideas your way! \n
+^ <span class="suggestion"> Type "hostel" again for other recomendations or type "hotel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" \n
 ^ \n
-^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
-- Woop Woop! Im a big fan of staying in hostel when travelling! \n
+^ <span class="toptip"> REMEMBER! \n
+^ Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight=10} 
+- Woop Woop! Im a big fan of staying in hostels while travelling! \n
 ^ \n
 ^ Visiting: \n
 ^ \n
@@ -559,31 +574,39 @@
 ^ - Austria
 ^ - Greece
 ^ \n
-^ are incredible choices if hostels are your choice of accomodation! \n
+^ are incredible choices if hostels are what you're after! \n
 ^ \n
-^ Maybe other countries would be of more inerest to you? Type "hostel" in your next message and I can recommend a diffrent list of countries for you! \n
+^ <span class="suggestion"> Type "hostel" again for other recomendations or type "hotel" or "AirBnB" \n
+^ Or to CHANGE TOPIC type "change topic" \n
 ^ \n
-^ REMEMBER! Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight= 10} {topic= accomodation}
+^ <span class="toptip"> REMEMBER! \n
+^ Hostels are only as safe as you make them - Always research safety and tips before staying at a hostel! To know my adivice type "hostel tips" and I'll let you know all the essentials to make your stay safe and enjoyable! {weight=10} 
 
 + [*] hostel tips [*]
 - Thanks for asking about hostel tips! Its good to know you're gathering the facts! \n
 ^ \n
 ^ Hostels are only as safe as you make them! DO NOT FORGET: \n
 ^ \n
-^ - Always bring a padlock for your stay: hostels do not guarentee the safety of your belongings - all storage spaces you are provided with in a hostel will be padlock-able: take advantage of this and protect your things!
+^- Always bring a padlock for your stay: \n 
+^ hostels do not guarentee the safety of your belongings - all storage spaces you are provided with in a hostel will be padlock-able: take advantage of this and protect your things! \n
 ^ \n
-^ - Do your best to only stay at big chain hostels: smaller hostels can be seedy or attract the wrong crowd, despite being dirt cheap. Some of the best hostel chains in Europes include "Generator hostels", "a&o hostels" and "Hostel One" but the continent has loads more amazing ones! It is easy to check if a hostel is well rated by reading google reviews before booking your stay make sure to do your research! \n
+^  - Do your best to only stay at big chain hostels: \n 
+^ smaller hostels can be seedy or attract the wrong crowd, despite being dirt cheap. Some of the best hostel chains in Europes include "Generator hostels", "a&o hostels" and "Hostel One" but the continent has loads more amazing ones! It is easy to check if a hostel is well rated by reading google reviews before booking your stay make sure to do your research! \n
 ^ \n
-^ - Check if bedding is included/available to rent! Not all hostel beds come with bed linens and sheets provided; some exepct you to bring your own, others allow you to rent bedding front the front desk and some come with it provded at no extra cost. Good hostels will always advertise wheter there beds come with bedding or not- always check! \n
+^- Check if bedding is included/available to rent! \n 
+^ Not all hostel beds come with bed linens and sheets provided; some exepct you to bring your own, others allow you to rent bedding front the front desk and some come with it provded at no extra cost. Good hostels will always advertise wheter there beds come with bedding or not- always check! \n
 ^ \n 
-^ - Be wary and on alert when socialsiing at hostels - Hostels are great places to meet cool, intrestign and diverse tpes of people! Just make sure to apply your common sense and the basics of "stranger danger" if you choose to socialise at hostels! For example: do not make any valuables you may have known to people you meet, drink responsbily if in unfamilar places and always let hostel staff know if you feel unsafe or uncomftable in your dorm/any common spaces. \n 
+^ - Be wary and on alert when socialising at hostels. \n 
+^ Hostels are great places to meet cool, intrestign and diverse tpes of people! Just make sure to apply your common sense and the basics of "stranger danger" if you choose to socialise at hostels! For example: do not make any valuables you may have known to people you meet, drink responsbily if in unfamilar places and always let hostel staff know if you feel unsafe or uncomftable in your dorm/any common spaces. \n 
 ^ \n
 ^ These are some of the basics you should know about staying at Europes may great hostels! Nevertheless I urge you to do further research! \n
 ^ \n
-^ Look on websites such as "hostelgeeks.com", "hostelworld.com" and "weareglobaltravellers.com" for more vital information on staying in hostels! You can also use soem of these websites to book hostels for your trip!
+^ Look on websites such as "hostelgeeks.com", "hostelworld.com" and "weareglobaltravellers.com" for more vital information on staying in hostels! You can also use soem of these websites to book hostels for your trip! \n
+^ \n
+^ <span class="suggestion"> Type "hotels" or "AirBnB" for other information in this topic or type CHANGE TOPIC to talk about other areas of travel.
 
-+[*] air bnb [*]
-- Air BnB's are a lovely choice! They can fit to a variety of budgets and fit a lot of other personal prefrences! \n
++[*] (air bnb|airbnb|airbnbs|air bnbs) [*]
+- Air BnB's are a lovely choice! They can fit to a variety of budgets and a lot of other personal prefrences! \n
 ^ \n
 ^ Have you tried looking into any of the countries below? They all have a very well established Air BnB network! \n
 ^ \n
@@ -593,7 +616,8 @@
 ^ - Slovenia \n
 ^ - France \n
 ^ \n 
-^ If none of these are your cup of tea let me know! Type "air bnb" in your next message and I'll give oyu a diffrent list of great countries for Air BnB-ing! {topic= accomodation}
+^ <span class="suggestion"> Type "Air BnB" again for other recomendations or type "hotel" or "hostel" \n
+^ Or type CHANGE TOPIC to discuss transport, safety or activities
 - I love booing an Air BnB! \n
 ^ \n
 ^ Some of the best countries for established AirBnB owners in Europe include: \n
@@ -604,7 +628,8 @@
 ^ - Lichenstein \n
 ^ - Ireland \n
 ^ \n
-^ I have other reccomendation if youd like to stay at an Air BnB! Just include "air bnb" in your next message and I'll let you know some other countries I love for staying in BnB's! {topic= accomodation}
+^ <span class="suggestion"> Type "Air BnB" again for other recomendations or type "hotel" or "hostel" \n
+^ Or type CHANGE TOPIC to discuss transport, safety or activities
 - A great choice of accomodation! Air BnB's can be so beautiful and definitely contribute a great trip! \n
 ^ \n
 ^  Id reccomend some beautiful BnB's in countries such as:
@@ -616,29 +641,41 @@
 ^ - Greece \n
 ^ - Italy \n
 ^ \n
-^ Including "air bnb" in your next message and I'll find you a new list of countries with lovely BnB's! {topic= accomodation}
+^ <span class="suggestion"> Type "Air BnB" again for other recomendations or type "hotel" or "hostel" \n
+^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
 + [*] (netherlands|uk|united kingdom|belgium|sweden|hungary|slovakia|finland|norway|moldova|bosnia|lithuania|latvia|iceland|andorra|monaco|san marino|portugal|switzerland|france|luxembourg|spain|ireland|germany|poland|greece|italy) [*]
 - What a great choice! Luckily this country has so many great options for accomodation! \n
 ^ \n
 ^ I can safely reccomend looking at an Air BnB, hotel room or hostel for your trip there! \n
 ^ \n
-^ Consider you budget and preferance when thinking about where to stay as the choice is yours! {topic= accomodation}
+^ Consider you budget and preferance when thinking about where to stay as the choice is yours! \n
+^ \n
+^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accomodation \n
+^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
 + [*] (russia|ukraine|belarus|serbia|albania|montenegro) [*]
 - You'd have a great time there! Try looking at hotels! \n
 ^ \n
-^ Hotels are the best places to stay in this country and would be reccomend over hostels or Air BnB's here for an enjoyable stay! {topic= accomodation}
+^ Hotels are the best places to stay in this country and would be reccomend over hostels or Air BnB's here for an enjoyable stay! \n
+^ \n
+^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accomodation \n
+^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
 + [*] (romania|czech republic|bulgaria|croatia|macedonia|estonia) [*]
 - What a beautiful country! \n
 ^ \n
-^ Staying in hotels and hostels will be your best bet here! {topic= accomodation}
+^ Staying in hotels and hostels will be your best bet here! \n
+^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accomodation \n
+^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
 + [*] (malta|slovenia|denmark|lichenstein|holy see|vatican city) [*]
 - Wow! I love it there myself! \n
 ^ \n
-^ The best accomodation options here are defiently hostels and Air BnB's here! {topic= accomodation}
+^ The best accomodation options here are defiently hostels and Air BnB's here! \n
+^ \n
+^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accomodation \n
+^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
 < topic accomodation 
 
