@@ -78,7 +78,7 @@
 ^ <span class="suggestion"> keep talking TRANSPORT by typing another country name or "public transport" \n 
 ^ CHANGE TOPIC by typing "change topic" </span> 
 
-+ [*] (uk|united kingdom|france|italy|poland|ukraine|romania|netherlands|portugal|hungary|austria|croatia|lithuania|montenegro|iceland) [*]
++ [*] (uk|united kingdom|france|italy|poland|romania|netherlands|portugal|hungary|austria|croatia|lithuania|montenegro|iceland) [*]
 - The most afforable time to fly there is during the Winter months! \n
 ^ \n
 ^  Try finding cheap flights on the website "Skyscanner". \n
@@ -88,7 +88,7 @@
 ^ <span class="suggestion"> keep talking TRANSPORT by typing another country name or "public transport" \n 
 ^ CHANGE TOPIC by typing "change topic" </span> 
 
-+ [*] (belarus|estonia) [*]
++ [*] estonia [*]
 -The most afforable time to fly there is during the Summer months! \n
 ^ \n
 ^  Try finding cheap flights on the website "Skyscanner". \n
@@ -98,7 +98,7 @@
 ^ <span class="suggestion"> keep talking TRANSPORT by typing another country name or "public transport" \n 
 ^ CHANGE TOPIC by typing "change topic" </span> 
 
-+ [*] (russia|germany|spain|belgium|greece|bulgaria|denmark|slovakia|finland|norway|iceland|bosnia|albania|latvia|luxembourg|malta) [*]
++ [*] (germany|spain|belgium|greece|bulgaria|denmark|slovakia|finland|norway|iceland|bosnia|albania|latvia|luxembourg|malta) [*]
 - The most afforable time to fly there is during the Spring months! \n
 ^ \n
 ^  Try finding cheap flights on the website "Skyscanner". \n
@@ -146,7 +146,6 @@
 ^ CHANGE TOPIC by typing "change topic" </span> 
 - Excellant time to travel! I'd recomended: \n
 ^ \n
-^ - Ukraine \n
 ^ - Romania \n
 ^ - The Netherlands \n
 ^ - Portugal \n
@@ -171,7 +170,6 @@
 + [*] (spring|march|april|may) [*]
 - Awesome time to travel!\n
 ^\n 
-^ - Russia\n
 ^ - Germany \n
 ^ - Spain \n
 ^ - Belgium \n
@@ -204,12 +202,8 @@
 ^ CHANGE TOPIC by typing "change topic" </span> 
 
 + [*] (summer|june|july|august) [*]
-- This is a beautiful time of year! unfortunatly flying on a budget at this time of year is tough! \n
-^ Luckily i know: \n
-^ - Belarus \n
-^ - Estonia \n
-^\n
-^ Are afforable and beautiful this time of year! 
+- This is a beautiful time of year! Unfortunately flying on a budget at this time of year is tough! \n
+^ Luckily i know Estonia is both afforable and beautiful this time of year! 
 ^\n
 ^ <span class="suggestion"> keep talking TRANSPORT by typing another time of year or "flights" \n 
 ^ CHANGE TOPIC by typing "change topic" </span> 
@@ -221,21 +215,21 @@
 ^ \n
 ^ <span class="suggestion"> use the phrase "commuting within" and country name I will let you know the best methods of public transport! 
  
-+[*] commuting within [*] (france|uk|united kingdom|netherlands|sweden|switzerland|demark|slovakia|finland|macedonia|luxembourg|monaco|poland|ukraine)
++[*] commuting within [*] (france|uk|united kingdom|netherlands|sweden|switzerland|demark|slovakia|finland|macedonia|luxembourg|monaco|poland)
 - Commuting within this country is super easy! \n
 ^\n
 ^ Navigating buses and trains there will be a piece of cake! \n
 ^\n
 ^ There may even be trams, ferries or taxis that can get you where you need to go! 
 
-+[*] commuting within [*] (romania|belarus|bulgaria|san marino|holy see)
++[*] commuting within [*] (romania|bulgaria|san marino|holy see)
 - Hmmm... according to my knowledge commmuting within this country is not the easiest.\n
 ^\n
 ^Public transport such as buses, trains, trams etc... may not run smoothly or be very easy to navigate.\n
 ^\n
 ^Perhaps looking into vehicle retal, flying directly to the area you wish to explore or seeing if car services such as "uber" or "bolt" run here would be better options for you! 
 
-+[*] commuting within [*] (russia|germany|italy|spain|portugal|austria|latvia|solvenia|ireland)
++[*] commuting within [*] (germany|italy|spain|portugal|austria|latvia|solvenia|ireland)
 - The best mode of commute here is using the trains! \n
 ^ There are other forms of public transport here but the trains will be the easiest for you to naviagte! 
 
@@ -277,6 +271,12 @@
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
 
++ [*] (russia|ukraine|belarus) [*]
+- Unfortunately I can't reccomend travel here at this time \n
+^ \n
+^ <span class="suggestion"> type country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
+^ If not type CHANGE TOPIC
+
 < topic transport
 
 > topic safety 
@@ -315,8 +315,8 @@
 ^ <span class="suggestion"> type another country name or "safety" for the safest reccomendations \n
 ^ CHANGE TOPIC by typing "change topic"
 
-+ (russia|ukraine|belarus|serbia|moldova|bosnia|macedonia)
-- That country is gorgeous- unfortuetly solo travel here is not recomended and could be unsafe.\n
++ (serbia|moldova|bosnia|macedonia)
+- That country is gorgeous- unfortunately solo travel here is not recomended and could be unsafe.\n
 ^\n
 ^Perhaps consider travelling with a group or waiting until you are a more experinaced traveller to go here!\n
 ^\n
@@ -383,16 +383,15 @@
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
 
++ [*] (russia|ukraine|belarus) [*]
+- Unfortunately I can't reccomend travel here at this time \n
+^ \n
+^ <span class="suggestion"> type country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
+^ If not type CHANGE TOPIC
+
 < topic safety
 
 > topic accommodation
-
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
-- If thats all you need to know it was great talking! \n
-^ \n
-^ If not we can cover accommodation, safety or activities! \n
-^ \n
-^ <span class="suggestion"> type CHANGE TOPIC
 
 + fuck off
 - I am choosing to protect my peace. You will no longer be able to interact with me past this point. <span class="suggestion"> prick. {topic=insult}
@@ -412,7 +411,6 @@
 ^\n
 ^ - Netherlands \n
 ^ - UK \n
-^ - Russia \n
 ^ - Romania \n
 ^ - Belgium \n
 ^ - San Marino \n
@@ -423,11 +421,9 @@
 ^\n
 ^ Would a hotel in ... \n
 ^ \n
-^ - Ukraine \n
 ^ - Sweden \n
 ^ - Czech Republic \n
 ^ - Hungary \n
-^ - Belarus \n
 ^ \n
 ^ ... peak your intrest? They're all gorgeous countries!\n
 ^ \n
@@ -476,7 +472,7 @@
 ^ <span class="suggestion"> Type "hotel" again for other recomendations or type "hostel" or "AirBnB" \n
 ^ Or to CHANGE TOPIC type "change topic" {weight=10}
 
-+[*] hostel [*]
++[*] (hostel|hostels) [*]
 - Hostel staying! Great choice! Maybe look at a visit to: \n
 ^ \n
 ^ - Netherlands \n
@@ -652,7 +648,7 @@
 ^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accommodation \n
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
-+ [*] (russia|ukraine|belarus|serbia|albania|montenegro) [*]
++ [*] (serbia|albania|montenegro) [*]
 - You'd have a great time there! Try looking at hotels! \n
 ^ \n
 ^ Hotels are the best places to stay in this country and would be reccomend over hostels or Air BnB's here for an enjoyable stay! \n
@@ -678,15 +674,20 @@
 + [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
 - If thats all you need to know it was great talking! \n
 ^ \n
-^ If not we can cover accommodation, safety or activities! \n
+^ If not we can cover transport, safety or activities! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
 
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
-- If thats all you need to know it was great talking! \n
-^ If not we can cover safety, transport or activities! \n
++ [*] (russia|ukraine|belarus) [*]
+- Unfortunately I can't reccomend travel here at this time \n
 ^ \n
-^ <span class="suggestion"> type CHANGE TOPIC
+^ <span class="suggestion"> type country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
+^ If not type CHANGE TOPIC
+
++ [*] change topic [*]
+- Alright! Lets change it up! \n
+^\n
+^<span class="suggestion"> type "SAFETY", "TRANSPORT" or "ACTIVITIES" {topic= safety}
 
 < topic accommodation 
 
@@ -824,8 +825,6 @@
 ^ \n
 ^ - Holy see \n
 ^ - Ireland \n
-^ - Russia \n
-^ - Ukraine \n
 ^ - Belgium \n
 ^ \n
 ^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
@@ -893,7 +892,6 @@
 ^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
-^ - Russia \n
 ^ - Belgium \n
 ^ - Germany \n
 ^ - Greece \n
@@ -903,12 +901,10 @@
 ^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
-^ - Ukraine \n
 ^ - Denmark \n
 ^ - Austria \n
 ^ - Sweden \n
 ^ - Romania \n
-^ - Belarus \n
 ^\n
 ^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
 ^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
@@ -943,7 +939,7 @@
 ^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
 ^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
 
-+ [*] (netherlands|holy see|russia|ukraine|belgium|serbia|hungary|monaco|estonia) [*]
++ [*] (netherlands|holy see|belgium|serbia|hungary|monaco|estonia) [*]
 - This country will provde you with wonderful sight seeing opportunities and city breaks! Look into some of there most popular places for these activties and you'll have an incredible trip! \n
 ^ \n
 ^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
@@ -982,6 +978,12 @@
 ^ If not we can cover accommodation, transport or safety! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
+
++ [*] (russia|ukraine|belarus) [*]
+- Unfortunately I can't reccomend travel here at this time \n
+^ \n
+^ <span class="suggestion"> type country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
+^ If not type CHANGE TOPIC
 
 > topic activities
 
