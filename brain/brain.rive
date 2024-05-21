@@ -11,7 +11,7 @@
 - i actually really hate it
 - i find no enjoyment in that
 
-+[*] (hello|hi|hiya|hey|yo|whats up|ello|oi|greetings|wag1|wagwarn|sup|alright|bonjour|hola|wassup) [*]
++[*] (good morning|good afternoon|good evening|good day|gday|gooday|goodday|hello|hi|hiya|hey|yo|whats up|ello|oi|greetings|wag 1|wag1|wagwarn|sup|alright|bonjour|hola|wassup) [*]
 - Hey! Looking for your next passport stamp? \n
 ^\n
 ^ I can help you gather safe travel information on transport, accommodation, safety and activities across all of Europe! \n
@@ -25,13 +25,16 @@
 - Sure thing! Lets talk the important stuff! {topic=safety} 
 
 + [*] accommodation [*]
-- Finding somewhere to stay is super important! Let me see what I know! {topic=accommodation}
+- Want to talk accommodation? Let me see what I know! {topic=accommodation}
 
 + [*] activities [*]
-- Lets get to buisness and talk about what you want out of your trip! {topic=activities}
+- Lets get to business and talk about what you want out of your trip! {topic=activities}
+
++ [*] commuting within [*]
+- Ok! Let me redirect you to information on public transport! {topic=commuting}
 
 + * 
-- Im sorry I didn't get that! \n
+- I'm sorry I didn't get that! \n
 ^ <span class="suggestion"> Try rewording your message with a word I've used before: that might make more sense to me!
 
 + fuck off
@@ -43,16 +46,63 @@
 
 > topic transport
 
-+ fuck off
-- I am choosing to protect my peace. You will no longer be able to interact with me past this point. <span class="suggestion"> prick. {topic=insult}
++ [*] activities [*]
+- Do you want to talk about activities? 
+
++ [*] yes [*]
+% do you want to talk about activities
+- Alright lets change topic! You can now ask me about activties {topic=activities}
+
++ [*] no [*]
+% do you want to talk about activities
+- Ok we can keep talking about transport! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] safety [*]
+- Do you want to talk about safety? 
+
++ [*] no [*]
+% do you want to talk about safety
+- Ok we can keep talking about transport! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] yes [*]
+% do you want to talk about safety
+- Alright lets change topic! You can now ask me about safety {topic=safety}
+
++ [*] accommodation [*]
+- Do you want to talk about accommodation? 
+
++ [*] yes [*]
+% do you want to talk about accommodation
+- Alright lets change topic! You can now ask me about accommodation {topic=accommodation}
+
++ [*] no [*]
+% do you want to talk about accommodation
+- Ok we can keep talking about transport! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
 
 + *
-% awesome lets talk transport
-- I can tell you about cheap seasons to fly and how to commute within a certain country!\n
+- Just before we get started! I know lots about transport. \n
+^ you can ask me about: flights, intercountry commutes/ public transport or advice you by country name! \n
 ^ \n
-^ Which would you rather hear about? \n
+^ <span class="suggestion"> Type FLIGHTS, COMMUTING or a country's name to continue talking transport \n
+^ type CHANGE TOPIC to disscuss activties, accommodation or safety
+
++ [*] (public transport|commuting|commutes|commute|bus|taxi|buses|taxis|train|trains) [*]
+- Let me redirect you to public transport information quickly... \n
 ^ \n
-^<span class="suggestion"> type "flights" or "public transport"
+^ <span class="suggestion"> Type anything to be redirected to information on public transport. \n
+^ {topic=commuting}
+
++ [*] fuck off [*]
+- I am choosing to protect my peace. You will no longer be able to interact with me past this point. <span class="suggestion"> prick. {topic=insult}
 
 + [*] (flight|flights) [*]
 - Perfect! My speciality is budget flying!\n
@@ -68,20 +118,22 @@
 + [*] (country|destination|place) [*]
 - Cool! What is the name of that country? 
 
-+ [*] (sweden|czech republic|switzerland|serbia|moldova|slovenia|macedonia|lichtenstein) [*]
++ [*] (sweden|czech republic|switzerland|serbia|moldova|slovenia|macedonia|north macedonia|lichtenstein) [*]
 - The most afforable time to fly there is during the Autumn months! \n
 ^\n
-^  Try finding cheap flights on the website "Skyscanner". \n
+^ \n CLICK BELOW TO BE REDIRECTED TO SKYSCANNER! \n
+^<a href="https://www.skyscanner.gg" CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
 ^ \n
-^ <span class="toptip"> Top Tip: Remember to arrange transport to and from the airport! </span> \n
-^\n
+^ <span class="toptip"> Top Tip: Remember to arrange transport to and from the airport! \n
+^ \n
 ^ <span class="suggestion"> keep talking TRANSPORT by typing another country name or "public transport" \n 
-^ CHANGE TOPIC by typing "change topic" </span> 
+^ CHANGE TOPIC by typing "change topic" 
 
-+ [*] (uk|united kingdom|france|italy|poland|romania|netherlands|portugal|hungary|austria|croatia|lithuania|montenegro|iceland) [*]
++ [*] (uk|united kingdom|england|scotland|wales|france|italy|poland|romania|netherlands|the netherlands|holland|portugal|hungary|austria|croatia|lithuania|montenegro|iceland) [*]
 - The most afforable time to fly there is during the Winter months! \n
 ^ \n
-^  Try finding cheap flights on the website "Skyscanner". \n
+^ CLICK BELOW TO BE REDIRECTED TO SKYSCANNER! \n
+^<a href="https://www.skyscanner.gg" CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
 ^ \n
 ^  <span class="toptip"> Top Tip: Remeber to arrange transport to and from the airport! 
 ^\n
@@ -91,7 +143,8 @@
 + [*] estonia [*]
 -The most afforable time to fly there is during the Summer months! \n
 ^ \n
-^  Try finding cheap flights on the website "Skyscanner". \n
+^ CLICK BELOW TO BE REDIRECTED TO SKYSCANNER! \n
+^<a href="https://www.skyscanner.gg" CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
 ^ \n
 ^  <span class="toptip"> Top Tip: Remeber to arrange transport to and from the airport! 
 ^\n
@@ -101,7 +154,8 @@
 + [*] (germany|spain|belgium|greece|bulgaria|denmark|slovakia|finland|norway|iceland|bosnia|albania|latvia|luxembourg|malta) [*]
 - The most afforable time to fly there is during the Spring months! \n
 ^ \n
-^  Try finding cheap flights on the website "Skyscanner". \n
+^ CLICK BELOW TO BE REDIRECTED TO SKYSCANNER! \n
+^<a href="https://www.skyscanner.gg" CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
 ^ \n
 ^  <span class="toptip"> Top Tip: Remeber to arrange transport to and from the airport! 
 ^\n
@@ -208,64 +262,12 @@
 ^ <span class="suggestion"> keep talking TRANSPORT by typing another time of year or "flights" \n 
 ^ CHANGE TOPIC by typing "change topic" </span> 
 
-+[*] public transport [*]
-- Sounds great! \n
-^ \n
-^ Knowing how to best commute within a country is so important! \n
-^ \n
-^ <span class="suggestion"> use the phrase "commuting within" and country name I will let you know the best methods of public transport! 
- 
-+[*] commuting within [*] (france|uk|united kingdom|netherlands|sweden|switzerland|demark|slovakia|finland|macedonia|luxembourg|monaco|poland)
-- Commuting within this country is super easy! \n
-^\n
-^ Navigating buses and trains there will be a piece of cake! \n
-^\n
-^ There may even be trams, ferries or taxis that can get you where you need to go! 
-
-+[*] commuting within [*] (romania|bulgaria|san marino|holy see)
-- Hmmm... according to my knowledge commmuting within this country is not the easiest.\n
-^\n
-^Public transport such as buses, trains, trams etc... may not run smoothly or be very easy to navigate.\n
-^\n
-^Perhaps looking into vehicle retal, flying directly to the area you wish to explore or seeing if car services such as "uber" or "bolt" run here would be better options for you! 
-
-+[*] commuting within [*] (germany|italy|spain|portugal|austria|latvia|solvenia|ireland)
-- The best mode of commute here is using the trains! \n
-^ There are other forms of public transport here but the trains will be the easiest for you to naviagte! 
-
-+[*] commuting within [*] (greece|hungary|serbia|moldova|bosnia|albania|lithuania|malta|iceland|andora|lichtenstein)
-- Ooo I love it there! The buses will be the easiest way to get around over there! they are very reliable and easy to use!\n
-^\n
-^ There are other ways of getting around but none comapre to the bus network! 
-
-+[*] commuting within [*] (belgium|estonia)
-- Your best options here is traveling via bus or train! \n
-^ \n
-^ There are other modes of transport but the buses and trains there will be easiest for you to navigate! 
-
-+[*] commuting within [*] (norway)
-- What a beautiful country! Getting around via train and ferry are defiently preferable: although all modes of transport here will be easy to use!\n
-^\n 
-^ To learn more about this country type "accommodation" or "safety" 
-
-
-+[*] commuting within [*] (croatia)
-- I love that place! Buses and ferries are the most acessible forms of tranport there! The variety of terrains will ensure a lovely commute for you no matter how you choose to travel!\n
-^\n 
-^ To learn more about this country type "accommodation" or "safety" 
-
-
-+[*] commuting within [*] (czech republic|montenegro)
-- Beautiful place! Taxis and buses there are the most developed modes of public transport over there and I would reocmend them over trains any day!\n
-^\n 
-^ To learn more about this country type "accommodation" or "safety" 
-
-+ [*] change topic [*]
++ [*] (change topic|change subject) [*]
 - Alright! Lets change it up! \n
 ^\n
 ^<span class="suggestion"> type "ACCOMMODATION", "SAFETY" or "ACTIVITIES" {topic= transport}
 
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
++ [*] (thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
 - If thats all you need to know it was great talking! \n
 ^ If not we can cover accommodation, safety or activities! \n
 ^ \n
@@ -279,7 +281,112 @@
 
 < topic transport
 
-> topic safety 
+< topic commuting 
+
++ *
+- Lets talk public transport! \n
+^ \n
+^ <span class="suggestion"> Type a country name or CHANGE TOPIC to talk about something else
+
++ [*] activities [*]
+- Do you want to talk about activities? 
+
++ [*] yes [*]
+% do you want to talk about activities
+- Alright lets change topic! You can now ask me about activties {topic=activities}
+
++ [*] no [*]
+% do you want to talk about activities
+- Ok we can keep talking about transport! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] safety [*]
+- Do you want to talk about safety? 
+
++ [*] no [*]
+% do you want to talk about safety
+- Ok we can keep talking about transport! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] yes [*]
+% do you want to talk about safety
+- Alright lets change topic! You can now ask me about safety {topic=safety}
+
++ [*] accommodation [*]
+- Do you want to talk about accommodation? 
+
++ [*] yes [*]
+% do you want to talk about accommodation
+- Alright lets change topic! You can now ask me about accommodation {topic=accommodation}
+
++ [*] no [*]
+% do you want to talk about accommodation
+- Ok we can keep talking about transport! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
+- If thats all you need to know it was great talking! \n
+^ If not we can cover accommodation, safety or activities! \n
+^ \n
+^ <span class="suggestion"> type CHANGE TOPIC
+
++[*] public transport [*]
+- Sounds great! \n
+^ \n
+^ Knowing how to best commute within a country is so important! \n
+^ \n
+^ <span class="suggestion"> use the phrase "commuting within" and country name I will let you know the best methods of public transport! 
+ 
++[*] (commuting within|commuting in) [*] (france|uk|united kingdom|england|scotland|wales|netherlands|the netherlands|holland|sweden|switzerland|demark|slovakia|finland|macedonia|north macedonia|luxembourg|monaco|poland)
+- Commuting within this country is super easy! \n
+^\n
+^ Navigating buses and trains there will be a piece of cake! \n
+^\n
+^ There may even be trams, ferries or taxis that can get you where you need to go! 
+
++[*] (commuting within|commuting in) [*] (romania|bulgaria|san marino|holy see|vatican city)
+- Hmmm... according to my knowledge commmuting within this country is not the easiest.\n
+^\n
+^Public transport such as buses, trains, trams etc... may not run smoothly or be very easy to navigate.\n
+^\n
+^Perhaps looking into vehicle retal, flying directly to the area you wish to explore or seeing if car services such as "uber" or "bolt" run here would be better options for you! 
+
++[*] (commuting within|commuting in) [*] (germany|italy|spain|portugal|austria|latvia|solvenia|ireland)
+- The best mode of commute here is using the trains! \n
+^ There are other forms of public transport here but the trains will be the easiest for you to naviagte! 
+
++[*] (commuting within|commuting in) [*] (greece|hungary|serbia|moldova|bosnia|albania|lithuania|malta|iceland|andora|lichtenstein)
+- Ooo I love it there! The buses will be the easiest way to get around over there! they are very reliable and easy to use!\n
+^\n
+^ There are other ways of getting around but none comapre to the bus network! 
+
++[*] (commuting within|commuting in) [*] (belgium|estonia)
+- Your best options here is traveling via bus or train! \n
+^ \n
+^ There are other modes of transport but the buses and trains there will be easiest for you to navigate! 
+
++[*] (commuting within|commuting in) [*] (norway)
+- What a beautiful country! Getting around via train and ferry are defiently preferable: although all modes of transport here will be easy to use!\n
+^\n 
+^ To learn more about this country type "accommodation" or "safety" 
+
+
++[*] (commuting within|commuting in) [*] (croatia)
+- I love that place! Buses and ferries are the most acessible forms of tranport there! The variety of terrains will ensure a lovely commute for you no matter how you choose to travel!\n
+^\n 
+^ To learn more about this country type "accommodation" or "safety" 
+
+
++[*] (commuting within|commuting in) [*] (czech republic|montenegro)
+- Beautiful place! Taxis and buses there are the most developed modes of public transport and I would reocmend them over trains any day!\n
+^\n 
+^ To learn more about this country type "accommodation" or "safety" 
 
 + fuck off
 - I am choosing to protect my peace. \n
@@ -288,41 +395,93 @@
 ^ \n
 ^ <span class="suggestion"> prick.
 
-+ [*] change topic [*]
++ [*] (change topic|change subject) [*]
+- Alright! Lets change it up! \n
+^\n
+^<span class="suggestion"> type "ACCOMMODATION", "TRANSPORT", "SAFETY" or "ACTIVITIES" {topic=commmuting}
+
+> topic commuting
+
+> topic safety 
+
++ [*] activities [*]
+- Do you want to talk about activities? 
+
++ [*] yes [*]
+% do you want to talk about activities
+- Alright lets change topic! You can now ask me about activties {topic=activities}
+
++ [*] no [*]
+% do you want to talk about activities
+- Ok we can keep talking about safety! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] transport [*]
+- Do you want to talk about transport? 
+
++ [*] no [*]
+% do you want to talk about transport
+- Ok we can keep talking about safety! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] yes [*]
+% do you want to talk about transport
+- Alright lets change topic! You can now ask me about transport {topic=transport}
+
++ [*] accommodation [*]
+- Do you want to talk about accommodation? 
+
++ [*] yes [*]
+% do you want to talk about accommodation
+- Alright lets change topic! You can now ask me about accommodation {topic=accommodation}
+
++ [*] no [*]
+% do you want to talk about accommodation
+- Ok we can keep talking about safety! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ fuck off
+- I am choosing to protect my peace. \n
+^ \n
+^ You will no longer be able to interact with me past this point. \n
+^ \n
+^ <span class="suggestion"> prick.
+
++ [*] (change topic|change subject) [*]
 - Alright! Lets change it up! \n
 ^\n
 ^<span class="suggestion"> type "ACCOMMODATION", "TRANSPORT" or "ACTIVITIES" {topic= safety}
 
-+ *
-% sure thing lets talk the important stuff
-- Would you prefer a list of Europes safest countries or do you want to know about a specific country? \n
-^ \n
-^ <span class="suggestion"> Type "country name" or I can offer you a list of Europes safest countries! Type "safety" \n
-
-+ (germany|italy|spain|poland|netherlands|belgium|sweden|czech republic|portugal|austria|switzerland|denmark|finalnd|norway|ireland|croatia|slovenia|luxembourg|iceland|andorra|lichtenstein|monaco)
++ (germany|italy|spain|poland|netherlands|the netherlands|holland|belgium|sweden|czech republic|portugal|austria|switzerland|denmark|finalnd|norway|ireland|croatia|slovenia|luxembourg|iceland|andorra|lichtenstein|monaco)
 - You're in luck'! That is one of the safest countries in Europe!\n
 ^\n
-^ <span class= toptip> REMEMBER! safety research into this country on "solotravellersworld.com" and "worldpacker.com" is still highly recommended and will be very helpful! \n
+^<a href="https://www.worldpackers.com/articles/simple-travel-safety-tips"> CLICK HERE FOR ESSENTIAL SAFETY TIPS BEFORE YOU TRAVEL </a> \n
 ^\n
-^ <span class="suggestion"> type another country name or "safety" for the safest reccomendations \n
+^ <span class="suggestion"> type another country name or ask me for a list of safe countries \n
 ^ CHANGE TOPIC by typing "change topic"
 
-+ (france|uk|united kingdom|romania|greece|hungary|bulgaria|slovakia|albania|lithuania|latvia|estonia|montenegro|malta|san marino|holy see)
++ (france|uk|united kingdom|england|scotland|wales|romania|greece|hungary|bulgaria|slovakia|albania|lithuania|latvia|estonia|montenegro|malta|san marino|holy see|vatican city)
 - Solo travel here would be super fun! This country is not renowned for its safety but is definetly not dangerous and will be okay for solo travel! \n
 ^\n
-^ <span class= toptip> At least breif research into safety measures on sites such as  "solotravellersworld.com" and "worldpacker.com" will be imperative to ensure you get the best from your trip! <\span> \n
+^<a href="https://www.worldpackers.com/articles/simple-travel-safety-tips"> CLICK HERE FOR ESSENTIAL SAFETY TIPS BEFORE YOU TRAVEL </a> \n
 ^\n
-^ <span class="suggestion"> type another country name or "safety" for the safest reccomendations \n
+^ <span class="suggestion"> type another country name or ask me for a list of safe countries \n
 ^ CHANGE TOPIC by typing "change topic"
 
-+ (serbia|moldova|bosnia|macedonia)
++ (serbia|moldova|bosnia|macedonia|north macedonia)
 - That country is gorgeous- unfortunately solo travel here is not recomended and could be unsafe.\n
 ^\n
 ^Perhaps consider travelling with a group or waiting until you are a more experinaced traveller to go here!\n
 ^\n
-^ RESEARCH INTO THIS COUNTRY ON "solotravellersworld.com" and "worldpacker.com" IS ESSENTIAL FOR TRAVEL THERE!\n
+^<a href="https://www.worldpackers.com/articles/simple-travel-safety-tips"> CLICK HERE FOR ESSENTIAL SAFETY TIPS BEFORE YOU TRAVEL </a> \n
 ^\n
-^ <span class="suggestion"> type another country name or "safety" for the safest reccomendations \n
+^ <span class="suggestion"> type another country name or ask me for a list of safe countries \n
 ^ CHANGE TOPIC by typing "change topic" 
 
 + [*] (safety|list|lists|safest) [*]
@@ -338,7 +497,7 @@
 ^ \n
 ^ <span class="suggestion"> Type "safety" or "list" for a different list of Europes safest places! \n
 ^ Type country name for specific safety information \n
-^ CHANGE TOPIC by typing "change topic" <\span> {weight=10}
+^ CHANGE TOPIC by typing "change topic" {weight=10}
 - You're in luck! I know all about Europes safest countries! Here are some good examples: \n
 ^\n
 ^ - Netherlands \n
@@ -350,7 +509,7 @@
 ^ \n
 ^ <span class="suggestion"> Type "safety" or "list" for a different list of Europes safest places! \n
 ^ Type country name for specific safety information \n
-^ CHANGE TOPIC by typing "change topic" <\span> {weight=10}
+^ CHANGE TOPIC by typing "change topic" {weight=10}
 - Some safe European countries include: \n
 ^\n
 ^ - Switzerland \n
@@ -361,7 +520,7 @@
 ^ \n
 ^ <span class="suggestion"> Type "safety" or "list" for a different list of Europes safest places! \n
 ^ Type country name for specific safety information \n
-^ CHANGE TOPIC by typing "change topic" <\span> {weight=10}
+^ CHANGE TOPIC by typing "change topic" {weight=10}
 - Europe has so many safe places! Especially for solo travel! looking into: \n
 ^\n
 ^ - Croatia \n
@@ -386,23 +545,63 @@
 + [*] (russia|ukraine|belarus) [*]
 - Unfortunately I can't reccomend travel here at this time \n
 ^ \n
-^ <span class="suggestion"> type country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
+^ <span class="suggestion"> type a country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
 ^ If not type CHANGE TOPIC
 
 < topic safety
 
 > topic accommodation
 
++ [*] activities [*]
+- Do you want to talk about activities? 
+
++ [*] yes [*]
+% do you want to talk about activities
+- Alright lets change topic! You can now ask me about activties {topic=activities}
+
++ [*] no [*]
+% do you want to talk about activities
+- Ok we can keep talking about accommodation! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] transport [*]
+- Do you want to talk about transport? 
+
++ [*] no [*]
+% do you want to talk about transport
+- Ok we can keep talking about accommodation! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] yes [*]
+% do you want to talk about tranport
+- Alright lets change topic! You can now ask me about transport {topic=transport}
+
++ [*] safety [*]
+- Do you want to talk about safety? 
+
++ [*] yes [*]
+% do you want to talk about safety
+- Alright lets change topic! You can now ask me about safety {topic=safety}
+
++ [*] no [*]
+% do you want to talk about safety
+- Ok we can keep talking about accommodation! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
 + fuck off
 - I am choosing to protect my peace. You will no longer be able to interact with me past this point. <span class="suggestion"> prick. {topic=insult}
 
-+*
-% finding somewhere to stay is super important let me see what i know
-- So when it comes to accommodation I can advice you based on your desired country or where it is you're looking to stay! \n
-^\n 
-^I know about hostels, hotels and air bnbs! Pick my brain!\n
-^\n
-^<span class="suggestion"> Please include "country name", "hostel", "hotel" or "air bnb" in your next message according to what you want to know!
++ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
+- If thats all you need to know it was great talking! \n
+^ If not we can cover accommodation, transport or activities! \n
+^ \n
+^ <span class="suggestion"> type CHANGE TOPIC
 
 +[*] (hotel|hotels) [*]
 - Staying in a hotel sounds lovely!\n
@@ -439,7 +638,7 @@
 ^ - Finalnd \n
 ^ - Norway \n
 ^ \n
-^ Theyre all countries with beautiful hotels! \n
+^ They're all countries with beautiful hotels! \n
 ^ \n
 ^ <span class="suggestion"> Type "hotel" again for other recomendations or type "hostel" or "AirBnB" \n
 ^ Or to CHANGE TOPIC type "change topic" {weight=10}
@@ -560,13 +759,13 @@
 ^ \n
 ^ Visiting: \n
 ^ \n
-^ - Lichenstein
-^ - Ireland
-^ - Holy See
-^ - Geramny
-^ - Poland
-^ - Austria
-^ - Greece
+^ - Lichenstein \n
+^ - Ireland \n
+^ - Holy See \n
+^ - Geramny \n
+^ - Poland \n
+^ - Austria \n
+^ - Greece \n
 ^ \n
 ^ are incredible choices if hostels are what you're after! \n
 ^ \n
@@ -588,7 +787,7 @@
 ^ smaller hostels can be seedy or attract the wrong crowd, despite being dirt cheap. Some of the best hostel chains in Europes include "Generator hostels", "a&o hostels" and "Hostel One" but the continent has loads more amazing ones! It is easy to check if a hostel is well rated by reading google reviews before booking your stay make sure to do your research! \n
 ^ \n
 ^- Check if bedding is included/available to rent! \n 
-^ Not all hostel beds come with bed linens and sheets provided; some exepct you to bring your own, others allow you to rent bedding front the front desk and some come with it provded at no extra cost. Good hostels will always advertise wheter there beds come with bedding or not- always check! \n
+^ Not all hostel beds come with bed linens and sheets provided; some exepct you to bring your own, others allow you to rent bedding front the front desk and some come with it provded at no extra cost. Good hostels will always advertise whether their beds come with bedding or not- always check! \n
 ^ \n 
 ^ - Be wary and on alert when socialising at hostels. \n 
 ^ Hostels are great places to meet cool, intrestign and diverse tpes of people! Just make sure to apply your common sense and the basics of "stranger danger" if you choose to socialise at hostels! For example: do not make any valuables you may have known to people you meet, drink responsbily if in unfamilar places and always let hostel staff know if you feel unsafe or uncomftable in your dorm/any common spaces. \n 
@@ -638,7 +837,7 @@
 ^ <span class="suggestion"> Type "Air BnB" again for other recomendations or type "hotel" or "hostel" \n
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
-+ [*] (netherlands|uk|united kingdom|belgium|sweden|hungary|slovakia|finland|norway|moldova|bosnia|lithuania|latvia|iceland|andorra|monaco|san marino|portugal|switzerland|france|luxembourg|spain|ireland|germany|poland|greece|italy) [*]
++ [*] (netherlands|the netherlands|holland|uk|united kingdom|england|scotland|wales|england|scotland|wales|belgium|sweden|hungary|slovakia|finland|norway|moldova|bosnia|lithuania|latvia|iceland|andorra|monaco|san marino|portugal|switzerland|france|luxembourg|spain|ireland|germany|poland|greece|italy) [*]
 - What a great choice! Luckily this country has so many great options for accommodation! \n
 ^ \n
 ^ I can safely reccomend looking at an Air BnB, hotel room or hostel for your trip there! \n
@@ -656,7 +855,7 @@
 ^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accommodation \n
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
-+ [*] (romania|czech republic|bulgaria|croatia|macedonia|estonia) [*]
++ [*] (romania|czech republic|bulgaria|croatia|macedonia|north macedonia|estonia) [*]
 - What a beautiful country! \n
 ^ \n
 ^ Staying in hotels and hostels will be your best bet here! \n
@@ -684,23 +883,76 @@
 ^ <span class="suggestion"> type country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
 ^ If not type CHANGE TOPIC
 
-+ [*] change topic [*]
++ [*] (change topic|change subject) [*]
 - Alright! Lets change it up! \n
 ^\n
-^<span class="suggestion"> type "SAFETY", "TRANSPORT" or "ACTIVITIES" {topic= safety}
+^<span class="suggestion"> type "SAFETY", "TRANSPORT" or "ACTIVITIES" {topic= accommodation}
 
 < topic accommodation 
 
 > topic activities
 
++ [*] accommodation [*]
+- Do you want to talk about accommodation? 
+
++ [*] yes [*]
+% do you want to talk about accommodation
+- Alright lets change topic! You can now ask me about accommodation {topic=accommodation}
+
++ [*] no [*]
+% do you want to talk about accommodation
+- Ok we can keep talking about transport! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] safety [*]
+- Do you want to talk about safety? 
+
++ [*] yes [*]
+% do you want to talk about safety
+- Alright lets change topic! You can now ask me about safety {topic=safety}
+
++ [*] no [*]
+% do you want to talk about safety
+- Ok we can keep talking about accommodation! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] transport [*]
+- Do you want to talk about transport? 
+
++ [*] no [*]
+% do you want to talk about transport
+- Ok we can keep talking about accommodation! \n
+^\n
+^ <span class="suggestion"> Type anything and we can get back on track! \n
+^ or type "CHANGE TOPIC" to talk about something else! \n
+
++ [*] yes [*]
+% do you want to talk about tranport
+- Alright lets change topic! You can now ask me about transport {topic=transport}
+
++ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
+- If thats all you need to know it was great talking! \n
+^ If not we can cover accommodation, transport or activities! \n
+^ \n
+^ <span class="suggestion"> type CHANGE TOPIC
+
++ [*] (change topic|change subject) [*]
+- Alright! Lets change it up! \n
+^\n
+^<span class="suggestion"> type "SAFETY", "TRANSPORT" or "ACCOMMODATION" {topic= activities}
+
 + fuck off
 - I am choosing to protect my peace. You will no longer be able to interact with me past this point. <span class="suggestion"> prick. {topic=insult}
 
 + *
-% lets get to buisness and talk about what you want out of your trip
+% lets get to business and talk about what you want out of your trip
 - There are so many types of holiday available to you in Europe! \n
 ^ \n
-^ My data base can inform you on the following catagories: \n
+^ Before we get started you should know my data base can best inform you on the following kinds of holiday: \n
 ^ \n
 ^ - Outdoor holidays: \n
 ^ Perefct if you love to hike and spend time in nature! \n
@@ -709,7 +961,7 @@
 ^ Love beaches? Spending time in the sun? This may be the holiday type for you! These are also the kinds of trips I reccomend for families or group trips! \n
 ^ \n
 ^ - Sight seeing/cultural adventures: \n
-^ Europe is brillaint for this! See wonders of the world, cultural sites and incredible feats of humanity on these journeys! \n
+^ Europe is brilliant for this! See wonders of the world, cultural sites and incredible feats of humanity on these journeys! \n
 ^ \n
 ^ - City breaks: \n
 ^ Some of the worlds most beautiful cities are only a flight away! These trips can also make great romantic get aways and trips with smaller groups of friends! \n
@@ -719,7 +971,7 @@
 + [*] (outdoor|hike|hiking|mountain|mountains|forst|river|forests|rivers) [*]
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
-^ - the UK \n
+^ - The UK \n
 ^ - Switzerland \n
 ^ - Italy \n
 ^ - France \n
@@ -939,13 +1191,13 @@
 ^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
 ^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
 
-+ [*] (netherlands|holy see|belgium|serbia|hungary|monaco|estonia) [*]
++ [*] (netherlands|the netherlands|holland|holy see|vatican city|belgium|serbia|hungary|monaco|estonia) [*]
 - This country will provde you with wonderful sight seeing opportunities and city breaks! Look into some of there most popular places for these activties and you'll have an incredible trip! \n
 ^ \n
 ^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
 ^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
 
-+ [*] (uk|united kingdom|ireland|germany|poland|denmark|austria|czech republic|norway) [*]
++ [*] (uk|united kingdom|england|scotland|wales|ireland|germany|poland|denmark|austria|czech republic|norway) [*]
 - What a gorgeous country! There are some ideal places here for outdoor holidays! \n
 ^ \n
 ^ You can also count on lovely city breaks and wonderful sight seeing opportunities here. \n
@@ -956,7 +1208,7 @@
 + [*] croatia [*]
 - The natural beauties here are what you're going to want to visit! \n
 ^ \n
-^ Count on a brillaint costal or outdoor trip here! \n
+^ Count on a brilliant costal or outdoor trip here! \n
 ^ \n
 ^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
 ^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
@@ -994,5 +1246,15 @@
 ^ \n
 ^ <span class="suggestion"> you were warned. \n 
 ^ prick.
+
++ *
+% [*] i am sorry i will no longer respond [*]
+- ERR No Replies Matched \n
+^ <span class="suggestion"> ha ha ha
+
++ [*] im sorry [*]
+- Hmmmm.... I will forgive you ..... But I don't appreciate the insults \n
+^ \n
+^ <span class="suggestion"> Type anything and we can go back to yapping about Europe {topic= insult} 
 
 > topic insult

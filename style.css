@@ -8,8 +8,19 @@
 }
 
 body {
-  background: url('/travelbotpattern2.jpg');
+  background: url('chatbot\ background\ final.jpg');
   background-size: cover;
+  background-position: center;
+}
+
+#left {
+  width:50vw;
+  height: 100vh;
+}
+
+#right {
+  width:50vw;
+  height: 100vh;
 }
 
 .title {
@@ -28,19 +39,20 @@ body {
 }
 
 .wrapper {
-  height: 100vh;
+  height: 90vh;
+  width: 41vh;
+  margin: 0 45vw 2.5vh;
 }
 
 .chat {
-  background: #042618;
-  box-shadow: 10px 10px 0px #533b31;
+  background-position: left;
   overflow: scroll;
-  height: 100%;
-  width: 160%;
+  height: 90%;
+  width: 130%;
   display: flex;
   flex-direction: column;
-  padding: 10px 20px 0px 20px;
-  border-radius: 10px;
+  padding: 141% 12% 0% 39%;
+  border-radius: 5px;
 }
 
 .messages {
@@ -51,7 +63,7 @@ body {
   max-width: 80%;
   width: fit-content;
   display: block;
-  margin: 3px;
+  margin: 6px;
   padding: 8px;
   border-radius: 5px;
   white-space: pre-line;
@@ -68,8 +80,8 @@ body {
 .messages .bot {
   text-align: left;
   margin-right: auto;
-  background: #fdfbe1;
-  color: #0c0c0c;
+  background: #0c0c0c;
+  color: #fdfbe1;
 }
 
 .messages .self {
@@ -86,7 +98,7 @@ body {
   width: 100%;
   position: sticky;
   bottom: -1px;
-  padding: 10px 0px 20px;
+  padding: 0px 5px 0px 4px;
   /* background: white; */
 }
 
@@ -96,9 +108,7 @@ body {
   width: 100%;
   outline: 0;
   border-top: 0px;
-  border-right: 0px;
   border-bottom: 2px solid black;
-  border-left: 0px;
 }
 
 input:focus {
@@ -115,8 +125,8 @@ input:focus {
 
 .toptip {
   font-family: 'copperplate';
- font-size: 130%;
- padding-top:10px;
+ font-size: 100%;
+ padding-top:11px;
 }
 
 .subheading {
@@ -127,8 +137,8 @@ font-weight: 20px;
 @media all and (min-width: 720px) {
   .wrapper {
     width: 40vw;
-    height: 90vh;
-    margin: 0 auto 2.5vh;
+    height: 20vh;
+    margin: 133 45% 2.5vh;
   }
 }
 
