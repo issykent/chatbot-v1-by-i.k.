@@ -978,7 +978,7 @@
 ^ - Spain \n
 ^ \n
 ^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Croatia \n
@@ -988,7 +988,7 @@
 ^ - Germany \n
 ^ \n
 ^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Greece \n
@@ -998,7 +998,7 @@
 ^ - Austria \n
 ^ \n
 ^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Denmark \n
@@ -1008,7 +1008,7 @@
 ^ - Andorra \n
 ^ \n
 ^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Czech republic \n
@@ -1018,7 +1018,7 @@
 ^ - Finland \n
 ^ \n
 ^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Over 30 countries in Europe offer gorgeous landscapes for outdoor actvities! Heres a list of 5 I'd reccomend: \n
 ^ \n
 ^ - Norway \n
@@ -1028,7 +1028,7 @@
 ^ - Bosnia \n
 ^ \n
 ^ <span class="suggestion"> type "other outdoor destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 
 + [*] (costal|coast|beach|sun|sunny|good weather|bright weather|warm|hot|beaches|coasts) [*]
 - Europes coasts are breath taking! Try looking into: \n
@@ -1040,7 +1040,7 @@
 ^ for beautiful beach destinations! \n
 ^ \n
 ^ <span class="suggestion"> type "other costal destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Europes coasts are breath taking! Try looking into: \n
 ^ \n
 ^ - Spain \n
@@ -1050,7 +1050,7 @@
 ^ for beautiful beach destinations! \n
 ^ \n
 ^ <span class="suggestion"> type "other costal destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Europes coasts are breath taking! Try looking into: \n
 ^ \n
 ^ - Malta \n
@@ -1060,7 +1060,7 @@
 ^ for beautiful beach destinations! \n
 ^ \n
 ^ <span class="suggestion"> type "other costal destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 
 + [*] (sight seeing|sights|wonders|cultural|culture|cultures) [*] 
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
@@ -1072,7 +1072,7 @@
 ^ - Spain \n
 ^ \n
 ^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - Holy see \n
@@ -1080,7 +1080,7 @@
 ^ - Belgium \n
 ^ \n
 ^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - Germany \n
@@ -1090,7 +1090,7 @@
 ^ - Slovenia \n
 ^ \n
 ^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - Denmark \n
@@ -1100,7 +1100,7 @@
 ^ - Czech Republic \n
 ^ \n
 ^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - Hungary \n
@@ -1110,7 +1110,7 @@
 ^ - Macedonia \n
 ^ \n
 ^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - In Europe the cultural holidays and sites to see are remarkable and diverse! Why not visit: \n
 ^ \n
 ^ - San Marino \n
@@ -1119,7 +1119,7 @@
 ^ - Estonia \n
 ^ \n
 ^ <span class="suggestion"> type "other cultural destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 
 + [*] (city|cities|city break) [*]
 - Europe is ideal for city breaks! Look into a trip to: \n
@@ -1131,7 +1131,7 @@
 ^ - Spain \n
 ^\n
 ^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Switzerland \n
@@ -1141,7 +1141,7 @@
 ^ - Portugal \n
 ^\n
 ^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Belgium \n
@@ -1150,7 +1150,7 @@
 ^ - Poland \n
 ^\n
 ^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Denmark \n
@@ -1159,7 +1159,7 @@
 ^ - Romania \n
 ^\n
 ^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Serbia \n
@@ -1170,7 +1170,7 @@
 ^ - Finalnd \n
 ^\n
 ^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 - Europe is ideal for city breaks! Look into a trip to: \n
 ^ \n
 ^ - Norway \n
@@ -1181,7 +1181,7 @@
 ^ - Bosnia \n
 ^\n
 ^ <span class="suggestion"> type "other city destinations" or a diferent holiday type for more suggestions \n
-^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight= 10}
+^ type CHANGE TOPIC to discuss transport, safety or accommodation {weight=10}
 
 + [*] (italy|france|spain|greece|montenegro|monte negro) [*]
 - The diversity available to you here is incredible - This place can provide you with stunning outdoor adventures, beautiful coastal places, breathtaking sights to see and lots of cities for memorable getaways. This is a great country for all kinds of people! \n
