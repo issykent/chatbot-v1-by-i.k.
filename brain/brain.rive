@@ -6,6 +6,10 @@
 - No problem
 - No worries!
 
++ [*] (bye|goodbye|adios|hasta luego|peace out|in a bit|cheerio|peace|speak to you later|talk to you later|talk soon|speak soon|ttyl|see you soon|unitl next time|til next time)
+- Goodbye! \n
+^ Enjoy your next European holiday! \n
+
 + [*] do you enjoy [*]
 - not a lot
 - i actually really hate it
@@ -45,6 +49,10 @@
 - Oops lost your privalige of talking! {topic=insult}
 
 > topic transport
+
++ [*] (bye|goodbye|adios|hasta luego|peace out|in a bit|cheerio|peace|speak to you later|talk to you later|talk soon|speak soon|ttyl|see you soon|unitl next time|til next time)
+- Goodbye! \n
+^ Enjoy your next European holiday! \n
 
 + [*] activities [*]
 - Do you want to talk about activities? 
@@ -98,8 +106,7 @@
 + [*] (public transport|commuting|commutes|commute|bus|taxi|buses|taxis|train|trains) [*]
 - Let me redirect you to public transport information quickly... \n
 ^ \n
-^ <span class="suggestion"> Type anything to be redirected to information on public transport. \n
-^ {topic=commuting}
+^ <span class="suggestion"> Type anything to be redirected to information on public transport.</span> {topic=commuting} 
 
 + [*] fuck off [*]
 - I am choosing to protect my peace. You will no longer be able to interact with me past this point. <span class="suggestion"> prick. {topic=insult}
@@ -122,7 +129,7 @@
 - The most afforable time to fly there is during the Autumn months! \n
 ^\n
 ^ \n CLICK BELOW TO BE REDIRECTED TO SKYSCANNER! \n
-^<a href="https://www.skyscanner.gg" CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
+^ <a href="https://www.skyscanner.gg"> CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. </a> \n
 ^ \n
 ^ <span class="toptip"> Top Tip: Remember to arrange transport to and from the airport! \n
 ^ \n
@@ -133,7 +140,7 @@
 - The most afforable time to fly there is during the Winter months! \n
 ^ \n
 ^ CLICK BELOW TO BE REDIRECTED TO SKYSCANNER! \n
-^<a href="https://www.skyscanner.gg" CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
+^<a href="https://www.skyscanner.gg"> CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
 ^ \n
 ^  <span class="toptip"> Top Tip: Remeber to arrange transport to and from the airport! 
 ^\n
@@ -144,7 +151,7 @@
 -The most afforable time to fly there is during the Summer months! \n
 ^ \n
 ^ CLICK BELOW TO BE REDIRECTED TO SKYSCANNER! \n
-^<a href="https://www.skyscanner.gg" CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
+^<a href="https://www.skyscanner.gg"> CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
 ^ \n
 ^  <span class="toptip"> Top Tip: Remeber to arrange transport to and from the airport! 
 ^\n
@@ -155,7 +162,7 @@
 - The most afforable time to fly there is during the Spring months! \n
 ^ \n
 ^ CLICK BELOW TO BE REDIRECTED TO SKYSCANNER! \n
-^<a href="https://www.skyscanner.gg" CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
+^<a href="https://www.skyscanner.gg"> CLICK HERE TO BE REDIRECTED TO "SkyScanner" FOR AFFORDABLE FLIGHTS!. <\a> \n
 ^ \n
 ^  <span class="toptip"> Top Tip: Remeber to arrange transport to and from the airport! 
 ^\n
@@ -267,8 +274,9 @@
 ^\n
 ^<span class="suggestion"> type "ACCOMMODATION", "SAFETY" or "ACTIVITIES" {topic= transport}
 
-+ [*] (thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
++ [*] (thanks|thank you|cheers|ok|cool|awesome|epic|great|ok dokey|okay|sick|ty|tysm|tyvm|sound|calm) [*]
 - If thats all you need to know it was great talking! \n
+^\n
 ^ If not we can cover accommodation, safety or activities! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
@@ -279,9 +287,13 @@
 ^ <span class="suggestion"> type country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
 ^ If not type CHANGE TOPIC
 
-< topic transport
+< topic
 
-< topic commuting 
+> topic commuting 
+
++ [*] (bye|goodbye|adios|hasta luego|peace out|in a bit|cheerio|peace|speak to you later|talk to you later|talk soon|speak soon|ttyl|see you soon|unitl next time|til next time)
+- Goodbye! \n
+^ Enjoy your next European holiday! \n
 
 + *
 - Lets talk public transport! \n
@@ -330,8 +342,9 @@
 ^ <span class="suggestion"> Type anything and we can get back on track! \n
 ^ or type "CHANGE TOPIC" to talk about something else! \n
 
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
++ [*] (thanks|thank you|cheers|ok|cool|awesome|epic|great|ok dokey|okay|sick|ty|tysm|tyvm|sound|calm) [*]
 - If thats all you need to know it was great talking! \n
+^ \n
 ^ If not we can cover accommodation, safety or activities! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
@@ -341,52 +354,55 @@
 ^ \n
 ^ Knowing how to best commute within a country is so important! \n
 ^ \n
-^ <span class="suggestion"> use the phrase "commuting within" and country name I will let you know the best methods of public transport! 
+^ <span class="suggestion"> type a country name I will let you know the best methods of public transport! 
  
-+[*] (commuting within|commuting in) [*] (france|uk|united kingdom|england|scotland|wales|netherlands|the netherlands|holland|sweden|switzerland|demark|slovakia|finland|macedonia|north macedonia|luxembourg|monaco|poland)
++[*] (france|uk|united kingdom|england|scotland|wales|netherlands|the netherlands|holland|sweden|switzerland|demark|slovakia|finland|macedonia|north macedonia|luxembourg|monaco|poland) [*]
 - Commuting within this country is super easy! \n
 ^\n
 ^ Navigating buses and trains there will be a piece of cake! \n
 ^\n
-^ There may even be trams, ferries or taxis that can get you where you need to go! 
+^ There may even be trams, ferries or taxis that can get you where you need to go! \n
+^ \n
+^ <span class="suggestion"> Type another country name or CHANGE TOPIC if you'd like to talk about somethign else!
 
-+[*] (commuting within|commuting in) [*] (romania|bulgaria|san marino|holy see|vatican city)
++[*] (romania|bulgaria|san marino|holy see|vatican city) [*]
 - Hmmm... according to my knowledge commmuting within this country is not the easiest.\n
 ^\n
 ^Public transport such as buses, trains, trams etc... may not run smoothly or be very easy to navigate.\n
 ^\n
 ^Perhaps looking into vehicle retal, flying directly to the area you wish to explore or seeing if car services such as "uber" or "bolt" run here would be better options for you! 
+^ <span class="suggestion"> Type another country name or CHANGE TOPIC if you'd like to talk about somethign else!
 
-+[*] (commuting within|commuting in) [*] (germany|italy|spain|portugal|austria|latvia|solvenia|ireland)
++[*] (germany|italy|spain|portugal|austria|latvia|solvenia|ireland) [*]
 - The best mode of commute here is using the trains! \n
-^ There are other forms of public transport here but the trains will be the easiest for you to naviagte! 
-
-+[*] (commuting within|commuting in) [*] (greece|hungary|serbia|moldova|bosnia|albania|lithuania|malta|iceland|andora|lichtenstein)
-- Ooo I love it there! The buses will be the easiest way to get around over there! they are very reliable and easy to use!\n
+^ There are other forms of public transport here but the trains will be the easiest for you to naviagte! [*] (greece|hungary|serbia|moldova|bosnia|albania|lithuania|malta|iceland|andora|lichtenstein) [*]
+^ <span class="suggestion"> Type another country name or CHANGE TOPIC if you'd like to talk about somethign else!
 ^\n
 ^ There are other ways of getting around but none comapre to the bus network! 
 
-+[*] (commuting within|commuting in) [*] (belgium|estonia)
++[*] (belgium|estonia) [*]
 - Your best options here is traveling via bus or train! \n
 ^ \n
 ^ There are other modes of transport but the buses and trains there will be easiest for you to navigate! 
+^ <span class="suggestion"> Type another country name or CHANGE TOPIC if you'd like to talk about somethign else!
 
-+[*] (commuting within|commuting in) [*] (norway)
++[*] norway [*]
 - What a beautiful country! Getting around via train and ferry are defiently preferable: although all modes of transport here will be easy to use!\n
 ^\n 
 ^ To learn more about this country type "accommodation" or "safety" 
+^ <span class="suggestion"> Type another country name or CHANGE TOPIC if you'd like to talk about somethign else!
 
-
-+[*] (commuting within|commuting in) [*] (croatia)
++[*] croatia [*]
 - I love that place! Buses and ferries are the most acessible forms of tranport there! The variety of terrains will ensure a lovely commute for you no matter how you choose to travel!\n
 ^\n 
 ^ To learn more about this country type "accommodation" or "safety" 
+^ <span class="suggestion"> Type another country name or CHANGE TOPIC if you'd like to talk about somethign else!
 
-
-+[*] (commuting within|commuting in) [*] (czech republic|montenegro)
++[*] (czech republic|montenegro) [*]
 - Beautiful place! Taxis and buses there are the most developed modes of public transport and I would reocmend them over trains any day!\n
 ^\n 
 ^ To learn more about this country type "accommodation" or "safety" 
+^ <span class="suggestion"> Type another country name or CHANGE TOPIC if you'd like to talk about somethign else!
 
 + fuck off
 - I am choosing to protect my peace. \n
@@ -400,9 +416,13 @@
 ^\n
 ^<span class="suggestion"> type "ACCOMMODATION", "TRANSPORT", "SAFETY" or "ACTIVITIES" {topic=commmuting}
 
-> topic commuting
+< topic 
 
 > topic safety 
+
++ [*] (bye|goodbye|adios|hasta luego|peace out|in a bit|cheerio|peace|speak to you later|talk to you later|talk soon|speak soon|ttyl|see you soon|unitl next time|til next time)
+- Goodbye! \n
+^ Enjoy your next European holiday! \n
 
 + [*] activities [*]
 - Do you want to talk about activities? 
@@ -536,8 +556,9 @@
 ^ Type country name for specific safety information \n
 ^ CHANGE TOPIC by typing "change topic" {weight=10}
 
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
++ [*] (thanks|thank you|cheers|ok|cool|awesome|epic|great|ok dokey|okay|sick|ty|tysm|tyvm|sound|calm) [*]
 - If thats all you need to know it was great talking! \n
+^\n
 ^ If not we can cover accommodation, transport or activities! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
@@ -548,9 +569,13 @@
 ^ <span class="suggestion"> type a country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
 ^ If not type CHANGE TOPIC
 
-< topic safety
+< topic 
 
 > topic accommodation
+
++ [*] (bye|goodbye|adios|hasta luego|peace out|in a bit|cheerio|peace|speak to you later|talk to you later|talk soon|speak soon|ttyl|see you soon|unitl next time|til next time)
+- Goodbye! \n
+^ Enjoy your next European holiday! \n
 
 + [*] activities [*]
 - Do you want to talk about activities? 
@@ -597,8 +622,9 @@
 + fuck off
 - I am choosing to protect my peace. You will no longer be able to interact with me past this point. <span class="suggestion"> prick. {topic=insult}
 
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
++ [*] (thanks|thank you|cheers|ok|cool|awesome|epic|great|ok dokey|okay|sick|ty|tysm|tyvm|sound|calm) [*]
 - If thats all you need to know it was great talking! \n
+^\n
 ^ If not we can cover accommodation, transport or activities! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
@@ -870,7 +896,7 @@
 ^ <span class="suggestion"> Type another country name or "hotel", "hostel" or "Air BnB" to learn more about accommodation \n
 ^ Or type CHANGE TOPIC to discuss transport, safety or activities
 
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
++ [*] (thanks|thank you|cheers|ok|cool|awesome|epic|great|ok dokey|okay|sick|ty|tysm|tyvm|sound|calm) [*]
 - If thats all you need to know it was great talking! \n
 ^ \n
 ^ If not we can cover transport, safety or activities! \n
@@ -888,9 +914,13 @@
 ^\n
 ^<span class="suggestion"> type "SAFETY", "TRANSPORT" or "ACTIVITIES" {topic= accommodation}
 
-< topic accommodation 
+< topic  
 
 > topic activities
+
++ [*] (bye|goodbye|adios|hasta luego|peace out|in a bit|cheerio|peace|speak to you later|talk to you later|talk soon|speak soon|ttyl|see you soon|unitl next time|til next time)
+- Goodbye! \n
+^ Enjoy your next European holiday! \n
 
 + [*] accommodation [*]
 - Do you want to talk about accommodation? 
@@ -934,8 +964,9 @@
 % do you want to talk about tranport
 - Alright lets change topic! You can now ask me about transport {topic=transport}
 
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
++ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great|ok dokey|okay|sick|ty|tysm|tyvm|sound|calm) [*]
 - If thats all you need to know it was great talking! \n
+^\n
 ^ If not we can cover accommodation, transport or activities! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
@@ -1225,8 +1256,9 @@
 ^<span class="suggestion"> type another country name or holiday destination for more ACTIVITY suggestions \n
 ^ or type CHANGE TOPIC to discuss transport, safety or accommodation 
 
-+ [*](thanks|thank you|cheers|ok|cool|awesome|epic|great) [*]
++ [*] (thanks|thank you|cheers|ok|cool|awesome|epic|great|ok dokey|okay|sick|ty|tysm|tyvm|sound|calm) [*]
 - If thats all you need to know it was great talking! \n
+^\n
 ^ If not we can cover accommodation, transport or safety! \n
 ^ \n
 ^ <span class="suggestion"> type CHANGE TOPIC
@@ -1237,9 +1269,13 @@
 ^ <span class="suggestion"> type country name, "hotel", "hostel" or "Air BnB" to keep talking about ACCOMMODATION \n
 ^ If not type CHANGE TOPIC
 
-> topic activities
+> topic
 
 > topic insult
+
++ [*] (bye|goodbye|adios|hasta luego|peace out|in a bit|cheerio|peace|speak to you later|talk to you later|talk soon|speak soon|ttyl|see you soon|unitl next time|til next time)
+- Goodbye! \n
+^ Sorry you couldn't enjoy Europe! \n
 
 + *
 - I'm sorry I will no longer respond. \n
@@ -1252,9 +1288,9 @@
 - ERR No Replies Matched \n
 ^ <span class="suggestion"> ha ha ha
 
-+ [*] im sorry [*]
++ [*] (im sorry|soz|sorry|apologies) [*]
 - Hmmmm.... I will forgive you ..... But I don't appreciate the insults \n
 ^ \n
-^ <span class="suggestion"> Type anything and we can go back to yapping about Europe {topic= insult} 
+^ <span class="suggestion"> Type anything and we can go back to yapping about Europe {topic=insult}
 
-> topic insult
+> topic 
