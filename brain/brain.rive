@@ -15,7 +15,7 @@
 - i actually really hate it
 - i find no enjoyment in that
 
-+[*] (good morning|good afternoon|good evening|good day|gday|gooday|goodday|hello|hi|hiya|hey|yo|whats up|ello|oi|greetings|wag 1|wag1|wagwarn|sup|alright|bonjour|hola|wassup) [*]
++[*] (good morning|wassup|whats up|what is up|good afternoon|good evening|good day|gday|gooday|goodday|hello|hi|hiya|hey|yo|whats up|ello|oi|greetings|wag 1|wag1|wagwarn|sup|alright|bonjour|hola|wassup) [*]
 - Hey! Looking for your next passport stamp? \n
 ^\n
 ^ I can help you gather safe travel information on transport, accommodation, safety and activities across all of Europe! \n
@@ -290,6 +290,12 @@
 < topic
 
 > topic commuting 
+
++ [*] (thanks|thank you|cheers|ok|cool|awesome|epic|great|ok dokey|okay|sick|ty|tysm|tyvm|sound|calm) [*]
+- If thats all you need to know it was great talking! \n
+^\n
+^ If not we can cover accommodation, safety or activities! \n
+^ \n
 
 + [*] (bye|goodbye|adios|hasta luego|peace out|in a bit|cheerio|peace|speak to you later|talk to you later|talk soon|speak soon|ttyl|see you soon|unitl next time|til next time)
 - Goodbye! \n
